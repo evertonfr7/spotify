@@ -1,8 +1,8 @@
 import './App.css'
-import Logo from './components/ui/Logo'
+import Input from './components/ui/Input'
 
 function App() {
-  return <Logo />
+  return <Input />
 }
 
 export default App
