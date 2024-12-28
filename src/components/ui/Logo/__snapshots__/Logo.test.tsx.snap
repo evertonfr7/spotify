@@ -7,7 +7,9 @@ exports[`Logo component renders the logo with correct snapshot 1`] = `
     <div>
       <img
         alt="Spotify Logo"
+        aria-label="Spotify Logo"
         height="50"
+        role="img"
         src="[object Object]"
         title="Spotify"
         width="164"
@@ -17,7 +19,9 @@ exports[`Logo component renders the logo with correct snapshot 1`] = `
   "container": <div>
     <img
       alt="Spotify Logo"
+      aria-label="Spotify Logo"
       height="50"
+      role="img"
       src="[object Object]"
       title="Spotify"
       width="164"

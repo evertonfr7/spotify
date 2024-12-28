@@ -1,6 +1,9 @@
 export interface ButtonProps {
-  className?: string
-  children?: React.ReactNode
-  disabled?: boolean
-  onClick?: () => void
+  children: React.ReactNode;
+  className?: string;
+  disabled?: boolean;
+  onClick?: () => void;
+  'aria-label'?: string;
+  'aria-describedby'?: string;
+  type?: 'button' | 'submit' | 'reset';
 }

@@ -1,7 +1,8 @@
 import './App.css'
+import Button from './components/ui/Button'
 
 function App() {
-  return 'Olá Mundo'
+  return <Button>Olá Mundo</Button>
 }
 
 export default App

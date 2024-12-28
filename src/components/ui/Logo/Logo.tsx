@@ -8,6 +8,8 @@ export function Logo() {
       title="Spotify"
       width={164}
       height={50}
+      role="img"
+      aria-label="Spotify Logo"
     />
   )
 }

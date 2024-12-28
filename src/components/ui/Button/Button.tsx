@@ -6,6 +6,9 @@ export function Button({
   className,
   disabled,
   onClick,
+  'aria-label': ariaLabel,
+  'aria-describedby': ariaDescribedBy,
+  type = 'button',
 }: ButtonProps): JSX.Element {
   return (
     <button
@@ -15,7 +18,13 @@ export function Button({
         'bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold',
         className,
         disabled && 'opacity-50 cursor-not-allowed',
+        !disabled &&
+          'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]',
       )}
+      type={type}
+      aria-label={ariaLabel}
+      aria-describedby={ariaDescribedBy}
+      aria-disabled={disabled}
     >
       {children}
     </button>

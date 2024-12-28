@@ -6,7 +6,8 @@ exports[`Button component renders the button with correct snapshot 1`] = `
   "baseElement": <body>
     <div>
       <button
-        class="bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold"
+        class="bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+        type="button"
       >
         Click Me
       </button>
@@ -14,7 +15,8 @@ exports[`Button component renders the button with correct snapshot 1`] = `
   </body>,
   "container": <div>
     <button
-      class="bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold"
+      class="bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+      type="button"
     >
       Click Me
     </button>
