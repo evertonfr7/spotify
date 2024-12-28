@@ -8,16 +8,18 @@ exports[`Login component renders the login route with correct snapshot 1`] = `
       <div
         class="w-full h-screen flex flex-col items-center justify-center gap-4"
       >
-        <img
-          alt="Spotify Logo"
-          aria-label="Spotify Logo"
-          class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px]"
-          height="50"
-          role="img"
-          src="[object Object]"
-          title="Spotify"
-          width="164"
-        />
+        <div>
+          <img
+            alt="Spotify Logo"
+            aria-label="Spotify Logo"
+            class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] block"
+            height="50"
+            role="img"
+            src="[object Object]"
+            title="Spotify"
+            width="164"
+          />
+        </div>
         <p
           class="font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]"
         >
@@ -36,16 +38,18 @@ exports[`Login component renders the login route with correct snapshot 1`] = `
     <div
       class="w-full h-screen flex flex-col items-center justify-center gap-4"
     >
-      <img
-        alt="Spotify Logo"
-        aria-label="Spotify Logo"
-        class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px]"
-        height="50"
-        role="img"
-        src="[object Object]"
-        title="Spotify"
-        width="164"
-      />
+      <div>
+        <img
+          alt="Spotify Logo"
+          aria-label="Spotify Logo"
+          class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] block"
+          height="50"
+          role="img"
+          src="[object Object]"
+          title="Spotify"
+          width="164"
+        />
+      </div>
       <p
         class="font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]"
       >

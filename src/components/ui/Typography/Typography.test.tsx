@@ -65,7 +65,7 @@ describe('Typography component', () => {
         'font-default text-[14px]/[16px] font-normal text-[#D3DADD] md:text-base/[18px]',
       paragraph:
         'font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]',
-      link: 'font-default text-[12px]/[18px] font-medium underline md:text-[14px]/[20px]',
+      link: 'font-link text-[12px]/[18px] font-bold md:text-[14px]/[20px]',
     }
 
     Object.entries(variants).forEach(([variant, expectedClass]) => {

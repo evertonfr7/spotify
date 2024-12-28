@@ -7,6 +7,7 @@ export default {
   theme: {
     fontFamily: {
       default: ['Rubik', 'sans-serif'],
+      link: ['DM Sans', 'sans-serif'],
     },
     extend: {},
   },

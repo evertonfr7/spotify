@@ -5,10 +5,26 @@ exports[`Logo component renders the logo with correct snapshot 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div>
+        <img
+          alt="Spotify Logo"
+          aria-label="Spotify Logo"
+          class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] block"
+          height="50"
+          role="img"
+          src="[object Object]"
+          title="Spotify"
+          width="164"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
       <img
         alt="Spotify Logo"
         aria-label="Spotify Logo"
-        class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px]"
+        class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] block"
         height="50"
         role="img"
         src="[object Object]"
@@ -16,18 +32,6 @@ exports[`Logo component renders the logo with correct snapshot 1`] = `
         width="164"
       />
     </div>
-  </body>,
-  "container": <div>
-    <img
-      alt="Spotify Logo"
-      aria-label="Spotify Logo"
-      class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px]"
-      height="50"
-      role="img"
-      src="[object Object]"
-      title="Spotify"
-      width="164"
-    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

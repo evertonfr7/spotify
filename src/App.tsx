@@ -1,8 +1,7 @@
 import './App.css'
-import Login from './routes/Login'
 
 function App() {
-  return <Login />
+  return <>app</>
 }
 
 export default App

@@ -1,6 +1,6 @@
 export default {
   testEnvironment: "jest-environment-jsdom",
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   coveragePathIgnorePatterns: [
     "node_modules",
     "test-config",
