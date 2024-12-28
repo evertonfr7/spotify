@@ -8,7 +8,7 @@ export function House({ className }: { className?: string }) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_1_1929)">
+      <g clipPath="url(#clip0_1_1929)">
         <path
           d="M12 15.3401C11.2044 15.3401 10.4413 15.683 9.87868 16.2932C9.31607 16.9035 9 17.7312 9 18.5942V26.2153H15V18.5942C15 17.7312 14.6839 16.9035 14.1213 16.2932C13.5587 15.683 12.7956 15.3401 12 15.3401Z"
           fill="currentColor"
