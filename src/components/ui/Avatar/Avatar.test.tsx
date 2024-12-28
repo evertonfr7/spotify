@@ -41,7 +41,9 @@ describe('Avatar Component', () => {
       />,
     )
     avatarImage = screen.getByAltText(/User Avatar/i)
-    expect(avatarImage).toHaveClass('w-[64px] h-[64px]')
+    expect(avatarImage).toHaveClass(
+      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]',
+    )
 
     rerender(
       <Avatar
@@ -51,7 +53,9 @@ describe('Avatar Component', () => {
       />,
     )
     avatarImage = screen.getByAltText(/User Avatar/i)
-    expect(avatarImage).toHaveClass('w-[128px] h-[128px]')
+    expect(avatarImage).toHaveClass(
+      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[64px] h-[64px] md:w-[128px] md:h-[128px]',
+    )
   })
 
   test('applies alt, title, and aria-label attributes correctly', () => {
