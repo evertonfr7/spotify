@@ -1,25 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button component renders the button with correct snapshot 1`] = `
+exports[`Login component renders the login route with correct snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="w-full h-screen flex flex-col items-center justify-center gap-4"
+      >
+        <img
+          alt="Spotify Logo"
+          aria-label="Spotify Logo"
+          class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px]"
+          height="50"
+          role="img"
+          src="[object Object]"
+          title="Spotify"
+          width="164"
+        />
+        <p
+          class="font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]"
+        >
+          Entra com sua conta Spotify clicando no botão abaixo
+        </p>
+        <button
+          class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[38px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+          type="button"
+        >
+          Entrar
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full h-screen flex flex-col items-center justify-center gap-4"
+    >
+      <img
+        alt="Spotify Logo"
+        aria-label="Spotify Logo"
+        class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px]"
+        height="50"
+        role="img"
+        src="[object Object]"
+        title="Spotify"
+        width="164"
+      />
+      <p
+        class="font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]"
+      >
+        Entra com sua conta Spotify clicando no botão abaixo
+      </p>
       <button
         class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[38px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
         type="button"
       >
-        Click Me
+        Entrar
       </button>
     </div>
-  </body>,
-  "container": <div>
-    <button
-      class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[38px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
-      type="button"
-    >
-      Click Me
-    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

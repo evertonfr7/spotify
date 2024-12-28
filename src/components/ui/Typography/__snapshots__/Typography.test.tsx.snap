@@ -6,7 +6,7 @@ exports[`Typography component renders the typography with correct snapshot 1`] =
   "baseElement": <body>
     <div>
       <p
-        class="font-default text-[14px]/[20px] font-medium"
+        class="font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]"
       >
         Default Text
       </p>
@@ -14,7 +14,7 @@ exports[`Typography component renders the typography with correct snapshot 1`] =
   </body>,
   "container": <div>
     <p
-      class="font-default text-[14px]/[20px] font-medium"
+      class="font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]"
     >
       Default Text
     </p>

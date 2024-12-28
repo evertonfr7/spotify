@@ -8,10 +8,13 @@ export function Typography({
   className,
 }: TypographyProps) {
   const variantClasses = {
-    title: 'font-default text-[28px]/[32px] font-semibold',
-    subtitle: 'font-default text-base/[18px] font-normal text-[#D3DADD]',
-    paragraph: 'font-default text-[14px]/[20px] font-medium',
-    link: 'font-default text-[14px]/[20px] font-medium underline',
+    title:
+      'font-default text-[26px]/[30px] font-semibold md:text-[28px]/[32px]',
+    subtitle:
+      'font-default text-[14px]/[16px] font-normal text-[#D3DADD] md:text-base/[18px]',
+    paragraph:
+      'font-default text-[12px]/[18px] font-medium text-white md:text-[14px]/[20px]',
+    link: 'font-default text-[12px]/[18px] font-medium underline md:text-[14px]/[20px]',
   }
 
   return (

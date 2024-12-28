@@ -15,7 +15,7 @@ export function Button({
       onClick={onClick}
       disabled={disabled}
       className={cn(
-        'bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold',
+        'bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[38px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px]',
         className,
         disabled && 'opacity-50 cursor-not-allowed',
         !disabled &&
