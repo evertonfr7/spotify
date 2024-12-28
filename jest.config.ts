@@ -8,7 +8,10 @@ export default {
     "jestGlobalMocks.ts",
     "\\.module\\.ts",
     "<rootDir>/src/main.tsx",
-    "\\.mock\\.ts"
+    "\\.mock\\.ts",
+    "\\.types\\.ts",
+    "index.ts",
+    "vite-env.d.ts",
   ],
   moduleNameMapper: {
     "\\.(gif|ttf|eot|png)$": "<rootDir>/test/__mocks__/fileMock.js",
