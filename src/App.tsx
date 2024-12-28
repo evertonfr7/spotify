@@ -1,8 +1,8 @@
 import './App.css'
-import Button from './components/ui/Button'
+import Avatar from './components/ui/Avatar'
 
 function App() {
-  return <Button>Olá Mundo</Button>
+  return <Avatar />
 }
 
 export default App
