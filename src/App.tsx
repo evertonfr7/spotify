@@ -1,8 +1,8 @@
 import './App.css'
-import Input from './components/ui/Input'
+import { Button } from './components/ui/Button/Button'
 
 function App() {
-  return <Input />
+  return <Button onClick={() => console.log('click')}>Login</Button>
 }
 
 export default App

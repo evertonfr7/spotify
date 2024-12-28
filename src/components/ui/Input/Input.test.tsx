@@ -44,7 +44,7 @@ describe('Input component', () => {
     render(<Input />)
     const inputElement = screen.getByRole('textbox')
     expect(inputElement).toHaveClass(
-      'w-full h-9 bg-transparent border-b border-white/20 outline-none font-[Rubik] text-[24px]/[20px] font-bold text-white',
+      'w-full h-9 bg-transparent border-b border-white/20 outline-none font-default text-[24px]/[20px] font-bold text-white',
     )
   })
 })

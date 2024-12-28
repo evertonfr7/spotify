@@ -1,5 +1,5 @@
 import { InputProps } from './Input.types'
-import { cn } from '../../../utils/cn'
+import { cn } from '@/utils/cn'
 
 export function Input({
   className,
@@ -13,7 +13,7 @@ export function Input({
       required={required}
       readOnly={readOnly}
       className={cn(
-        'w-full h-9 bg-transparent border-b border-white/20 outline-none font-[Rubik] text-[24px]/[20px] font-bold text-white',
+        'w-full h-9 bg-transparent border-b border-white/20 outline-none font-default text-[24px]/[20px] font-bold text-white',
         className,
       )}
       type="text"

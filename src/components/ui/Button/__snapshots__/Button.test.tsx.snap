@@ -1,21 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Input component renders the input with correct snapshot 1`] = `
+exports[`Button component renders the button with correct snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <input
-        class="w-full h-9 bg-transparent border-b border-white/20 outline-none font-default text-[24px]/[20px] font-bold text-white"
-        type="text"
-      />
+      <button
+        class="bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold"
+      >
+        Click Me
+      </button>
     </div>
   </body>,
   "container": <div>
-    <input
-      class="w-full h-9 bg-transparent border-b border-white/20 outline-none font-default text-[24px]/[20px] font-bold text-white"
-      type="text"
-    />
+    <button
+      class="bg-[#57B660] text-[#181414] rounded-3xl px-10 h-[42px] font-default text-base/[20px] font-bold"
+    >
+      Click Me
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

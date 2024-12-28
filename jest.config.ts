@@ -5,5 +5,6 @@ export default {
     "\\.(gif|ttf|eot|png)$": "<rootDir>/test/__mocks__/fileMock.js",
     ".+\\.svg?.+$": "jest-transform-stub",
     "\\.(css|less|sass|scss)$": "identity-obj-proxy",
+    "^@/(.*)$": "<rootDir>/src/$1",
   },
 }
