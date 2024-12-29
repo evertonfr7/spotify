@@ -10,6 +10,12 @@ describe('Artist Component', () => {
     image: '/images/test-artist.jpg',
   }
 
+  test('renders the artist with correct snapshot', () => {
+    const tree = render(<Artist {...mockProps} />)
+
+    expect(tree).toMatchSnapshot()
+  })
+
   test('renders the artist name correctly', () => {
     render(<Artist {...mockProps} />)
     const artistName = screen.getByText(mockProps.name)

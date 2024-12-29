@@ -1,14 +1,14 @@
 import './App.css'
-import Artist from './components/Artist'
+import Cover from './components/Cover'
 
 function App() {
   return (
     <>
-      <Artist
-        id="1"
-        href="#"
-        name="Matuê"
-        image="https://i.scdn.co/image/ab6761610000e5eb654dc6b69f86aeb73527fc07"
+      <Cover
+        id="cover-1"
+        image="https://placehold.co/72x72"
+        title="Cover 1"
+        subtitle="Subtitle 1"
       />
     </>
   )
