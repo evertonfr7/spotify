@@ -26,6 +26,9 @@ Estou utilizando o [Eslint](https://eslint.org/) e o
 [Prettier](https://prettier.io/) para linting e estilo do código.
 E eu também inclui configurações do [editorconfig](https://editorconfig.org/) para o vscode.
 
+### Roteamento
+Utilizei o [react-router-dom](https://reactrouter.com/) para o roteamento da aplicação.
+
 # Requisitos
 
 ## Requisitos obrigatórios
@@ -45,6 +48,6 @@ E eu também inclui configurações do [editorconfig](https://editorconfig.org/)
 - [ ] Testes E2E
 - [ ] Integração com Sentry
 - [ ] CI/CD
-- [ ] Responsividade (celular e tablet)
+- [x] Responsividade (celular e tablet)
 - [ ] Qualidade de código (Sonarqube)
 - [ ] PWA
