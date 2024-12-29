@@ -1,4 +1,4 @@
-export function Disc({ className }: { className?: string }) {
+export function Disc({ className }: { className?: string }): JSX.Element {
   return (
     <svg
       className={className}

@@ -6,7 +6,7 @@ export function Typography({
   as: Component = 'p',
   children,
   className,
-}: TypographyProps) {
+}: TypographyProps): JSX.Element {
   const variantClasses = {
     title:
       'font-default text-[26px]/[30px] font-semibold md:text-[28px]/[32px]',

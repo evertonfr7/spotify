@@ -1,4 +1,4 @@
-export function User({ className }: { className?: string }) {
+export function User({ className }: { className?: string }): JSX.Element {
   return (
     <svg
       className={className}

@@ -1,17 +1,8 @@
 import './App.css'
-import PlaylistModal from './components/PlaylistModal/PlaylistModal'
+import { Home } from './routes/Home/Home'
 
 function App() {
-  return (
-    <>
-      <PlaylistModal
-        isOpen={true}
-        onClose={() => {
-          alert('onClose')
-        }}
-      />
-    </>
-  )
+  return <Home />
 }
 
 export default App

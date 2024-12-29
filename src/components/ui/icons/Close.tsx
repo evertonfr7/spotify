@@ -1,4 +1,4 @@
-export function Close({ className }: { className?: string }) {
+export function Close({ className }: { className?: string }): JSX.Element {
   return (
     <svg
       className={className}

@@ -1,4 +1,4 @@
-export function House({ className }: { className?: string }) {
+export function House({ className }: { className?: string }): JSX.Element {
   return (
     <svg
       className={className}

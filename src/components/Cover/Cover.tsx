@@ -1,7 +1,7 @@
 import Typography from '../ui/Typography'
 import { CoverProps } from './Cover.types'
 
-export function Cover({ id, image, title, subtitle }: CoverProps) {
+export function Cover({ id, image, title, subtitle }: CoverProps): JSX.Element {
   return (
     <div className="flex items-center gap-2 md:gap-4 text-white" key={id}>
       <img

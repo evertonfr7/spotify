@@ -1,4 +1,4 @@
-export function ArrowLeft({ className }: { className?: string }) {
+export function ArrowLeft({ className }: { className?: string }): JSX.Element {
   return (
     <svg
       className={className}

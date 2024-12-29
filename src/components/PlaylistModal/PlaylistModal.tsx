@@ -6,7 +6,10 @@ import Input from '../ui/Input'
 import Button from '../ui/Button'
 import { Close } from '../ui/icons'
 
-export function PlaylistModal({ isOpen, onClose }: PlaylistModalProps) {
+export function PlaylistModal({
+  isOpen,
+  onClose,
+}: PlaylistModalProps): JSX.Element | null {
   const [open, setOpen] = useState(isOpen)
   if (!isOpen) return null
 

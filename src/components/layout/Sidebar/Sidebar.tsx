@@ -4,7 +4,7 @@ import Typography from '@/components/ui/Typography'
 import { sidebarRoutes } from '@/constants'
 import { Link, BrowserRouter as Router } from 'react-router-dom'
 
-export function Sidebar() {
+export function Sidebar(): JSX.Element {
   return (
     <div className="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:w-[250px] ">
       <div className="mb-11 flex justify-center md:justify-start">

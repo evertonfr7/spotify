@@ -1,4 +1,4 @@
-export function Download({ className }: { className?: string }) {
+export function Download({ className }: { className?: string }): JSX.Element {
   return (
     <svg
       className={className}

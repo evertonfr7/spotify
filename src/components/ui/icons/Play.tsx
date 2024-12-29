@@ -1,4 +1,4 @@
-export function Play({ className }: { className?: string }) {
+export function Play({ className }: { className?: string }): JSX.Element {
   return (
     <svg
       className={className}
