@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home component renders the home route with correct snapshot 1`] = `
+exports[`Profile component renders the profile route with correct snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -223,7 +223,28 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
         </div>
         <div
           class="w-full h-screen text-white"
-        />
+        >
+          <div
+            class="flex h-[100vh] flex-col justify-center items-center gap-6"
+          >
+            <div
+              class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[64px] h-[64px] md:w-[128px] md:h-[128px] bg-[#ff6437]"
+            >
+              S
+            </div>
+            <p
+              class="font-default font-medium text-white text-[22px]/[18px] md:text-[24px]/[20px]"
+            >
+              Fulano dos Santos
+            </p>
+            <button
+              class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[32px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+              type="button"
+            >
+              Logout
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>,
@@ -446,7 +467,28 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
       </div>
       <div
         class="w-full h-screen text-white"
-      />
+      >
+        <div
+          class="flex h-[100vh] flex-col justify-center items-center gap-6"
+        >
+          <div
+            class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[64px] h-[64px] md:w-[128px] md:h-[128px] bg-[#ff6437]"
+          >
+            S
+          </div>
+          <p
+            class="font-default font-medium text-white text-[22px]/[18px] md:text-[24px]/[20px]"
+          >
+            Fulano dos Santos
+          </p>
+          <button
+            class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[32px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+            type="button"
+          >
+            Logout
+          </button>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],

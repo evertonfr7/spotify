@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home component renders the home route with correct snapshot 1`] = `
+exports[`BaseNavigation component renders the base navigation route with correct snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -223,7 +223,9 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
         </div>
         <div
           class="w-full h-screen text-white"
-        />
+        >
+          children
+        </div>
       </div>
     </div>
   </body>,
@@ -446,7 +448,9 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
       </div>
       <div
         class="w-full h-screen text-white"
-      />
+      >
+        children
+      </div>
     </div>
   </div>,
   "debug": [Function],

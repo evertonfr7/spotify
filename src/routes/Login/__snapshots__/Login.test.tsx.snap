@@ -26,7 +26,7 @@ exports[`Login component renders the login route with correct snapshot 1`] = `
           Entra com sua conta Spotify clicando no botão abaixo
         </p>
         <button
-          class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[38px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+          class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[32px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
           type="button"
         >
           Entrar
@@ -56,7 +56,7 @@ exports[`Login component renders the login route with correct snapshot 1`] = `
         Entra com sua conta Spotify clicando no botão abaixo
       </p>
       <button
-        class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[38px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+        class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[32px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
         type="button"
       >
         Entrar
