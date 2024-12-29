@@ -222,7 +222,7 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
           </nav>
         </div>
         <div
-          class="w-full h-screen text-white"
+          class="w-full h-screen text-white p-4 md:p-8"
         />
       </div>
     </div>
@@ -445,7 +445,7 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
         </nav>
       </div>
       <div
-        class="w-full h-screen text-white"
+        class="w-full h-screen text-white p-4 md:p-8"
       />
     </div>
   </div>,

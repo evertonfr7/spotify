@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom'
 import { PlaylistModalProps } from './PlaylistModal.types'
-import { useState } from 'react'
 import Typography from '../ui/Typography'
 import Input from '../ui/Input'
 import Button from '../ui/Button'
@@ -10,18 +9,16 @@ export function PlaylistModal({
   isOpen,
   onClose,
 }: PlaylistModalProps): JSX.Element | null {
-  const [open, setOpen] = useState(isOpen)
   if (!isOpen) return null
 
   const handleClose = () => {
-    setOpen(false)
     onClose()
   }
 
   return ReactDOM.createPortal(
     <div
       data-testid="playlist-modal-background"
-      className={`fixed inset-0 p-6 bg-black bg-opacity-40 flex justify-center items-center z-50 transition-opacity duration-300 ${open ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
+      className={`fixed inset-0 p-6 bg-black bg-opacity-40 flex justify-center items-center z-50 transition-opacity duration-300 ${isOpen ? 'opacity-100 flex' : 'opacity-0 hidden'}`}
       onClick={handleClose}
     >
       <div

@@ -1,9 +1,6 @@
 import './App.css'
-
-import { Profile } from './routes/Profile/Profile'
-
 function App() {
-  return <Profile />
+  return <></>
 }
 
 export default App

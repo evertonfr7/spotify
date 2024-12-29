@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BaseNavigation component renders the base navigation route with correct snapshot 1`] = `
+exports[`Artists component renders the artists route with correct snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -224,7 +224,44 @@ exports[`BaseNavigation component renders the base navigation route with correct
         <div
           class="w-full h-screen text-white p-4 md:p-8"
         >
-          children
+          <div
+            class="flex justify-between items-center flex-wrap mb-4 md:mb-8"
+          >
+            <div
+              class="flex flex-col gap-2"
+            >
+              <h1
+                class="font-default text-[26px]/[30px] font-semibold md:text-[28px]/[32px]"
+              >
+                Top Artistas
+              </h1>
+              <h2
+                class="font-default text-[14px]/[16px] font-normal text-[#D3DADD] md:text-base/[18px] mb-2 md:mb-0"
+              >
+                Aqui você encontra seus artistas preferidos
+              </h2>
+            </div>
+          </div>
+          <div>
+            <a
+              href="/artist/1"
+            >
+              <div
+                class="flex items-center gap-2 md:gap-4 text-white"
+              >
+                <div
+                  class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
+                >
+                  S
+                </div>
+                <p
+                  class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
+                >
+                  Test Artist
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -449,7 +486,44 @@ exports[`BaseNavigation component renders the base navigation route with correct
       <div
         class="w-full h-screen text-white p-4 md:p-8"
       >
-        children
+        <div
+          class="flex justify-between items-center flex-wrap mb-4 md:mb-8"
+        >
+          <div
+            class="flex flex-col gap-2"
+          >
+            <h1
+              class="font-default text-[26px]/[30px] font-semibold md:text-[28px]/[32px]"
+            >
+              Top Artistas
+            </h1>
+            <h2
+              class="font-default text-[14px]/[16px] font-normal text-[#D3DADD] md:text-base/[18px] mb-2 md:mb-0"
+            >
+              Aqui você encontra seus artistas preferidos
+            </h2>
+          </div>
+        </div>
+        <div>
+          <a
+            href="/artist/1"
+          >
+            <div
+              class="flex items-center gap-2 md:gap-4 text-white"
+            >
+              <div
+                class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
+              >
+                S
+              </div>
+              <p
+                class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
+              >
+                Test Artist
+              </p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </div>,

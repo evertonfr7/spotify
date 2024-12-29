@@ -5,7 +5,7 @@ export function BaseNavigation({ children }: BaseNavigationProps): JSX.Element {
   return (
     <div className="w-full h-screen flex justify-between">
       <Sidebar />
-      <div className="w-full h-screen text-white">{children}</div>
+      <div className="w-full h-screen text-white p-4 md:p-8">{children}</div>
     </div>
   )
 }

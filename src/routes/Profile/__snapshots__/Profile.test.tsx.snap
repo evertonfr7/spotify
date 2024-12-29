@@ -222,7 +222,7 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
           </nav>
         </div>
         <div
-          class="w-full h-screen text-white"
+          class="w-full h-screen text-white p-4 md:p-8"
         >
           <div
             class="flex h-[100vh] flex-col justify-center items-center gap-6"
@@ -466,7 +466,7 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
         </nav>
       </div>
       <div
-        class="w-full h-screen text-white"
+        class="w-full h-screen text-white p-4 md:p-8"
       >
         <div
           class="flex h-[100vh] flex-col justify-center items-center gap-6"
