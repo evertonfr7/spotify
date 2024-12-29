@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Playlists component renders the playlists route with correct snapshot 1`] = `
+exports[`Playlists Component renders the playlists route with correct snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

@@ -16,6 +16,7 @@ export function Input({
   onChange,
   onBlur,
   onFocus,
+  ...rest
 }: InputProps): JSX.Element {
   return (
     <input
@@ -40,6 +41,7 @@ export function Input({
           'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white/50',
       )}
       type={type}
+      {...rest}
     />
   )
 }

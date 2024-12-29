@@ -31,7 +31,7 @@ export function PlaylistModal({
             <Typography className="text-center mb-4 md:mb-6">
               Dê um nome a sua playlist
             </Typography>
-            <Input />
+            <Input data-testid="playlist-modal-input" />
           </div>
 
           <Button className="w-[fit-content]">Criar</Button>

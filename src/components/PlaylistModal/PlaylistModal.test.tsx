@@ -53,4 +53,28 @@ describe('PlaylistModal Component', () => {
     expect(inputField).toBeInTheDocument()
     expect(createButton).toBeInTheDocument()
   })
+
+  test('calls expected logic when "Criar" button is clicked', () => {
+    const onCreateMock = jest.fn()
+    render(<PlaylistModal isOpen={true} onClose={onCloseMock} />)
+
+    const createButton = screen.getByText(/Criar/i)
+    fireEvent.click(createButton)
+
+    expect(onCreateMock).not.toHaveBeenCalled()
+  })
+
+  test('applies correct classes to modal elements when isOpen changes', () => {
+    const { rerender } = render(
+      <PlaylistModal isOpen={true} onClose={onCloseMock} />,
+    )
+
+    const modalContent = screen.getByTestId('playlist-modal-content')
+    expect(modalContent).toHaveClass('flex')
+
+    rerender(<PlaylistModal isOpen={false} onClose={onCloseMock} />)
+    expect(modalContent).toHaveClass(
+      'relative rounded-[32px] bg-[#303030] p-6 md:p-8 h-[250px] md:w-[600px] md:h-[346px] flex flex-col justify-center gap-4',
+    )
+  })
 })

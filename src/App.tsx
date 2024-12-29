@@ -1,6 +1,7 @@
 import './App.css'
+import Playlists from './routes/Playlists'
 function App() {
-  return <></>
+  return <Playlists />
 }
 
 export default App
