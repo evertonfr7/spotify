@@ -2,7 +2,6 @@ import { Download } from '@/components/ui/icons'
 import Logo from '@/components/ui/Logo'
 import Typography from '@/components/ui/Typography'
 import { sidebarRoutes } from '@/constants'
-import { Link, BrowserRouter as Router } from 'react-router-dom'
 
 export function Sidebar(): JSX.Element {
   return (
@@ -12,42 +11,40 @@ export function Sidebar(): JSX.Element {
           <Logo autoColapse />
         </div>
       </a>
-      <Router>
-        <nav className="flex h-[calc(100%-80px)] flex-col justify-between">
-          <ul className="flex flex-col gap-3 md:gap-6">
-            {sidebarRoutes.map((route) => (
-              <li key={route.name}>
-                <Link
-                  aria-label={route.name}
-                  title={route.name}
-                  to={route.path}
-                  className="flex justify-center gap-3 md:gap-4 md:justify-start"
+      <nav className="flex h-[calc(100%-80px)] flex-col justify-between">
+        <ul className="flex flex-col gap-3 md:gap-6">
+          {sidebarRoutes.map((route) => (
+            <li key={route.name}>
+              <a
+                href={route.path}
+                aria-label={route.name}
+                title={route.name}
+                className="flex justify-center gap-3 md:gap-4 md:justify-start"
+              >
+                <route.icon />
+                <Typography
+                  className="text-[16px]/[20px] md:text-[19px]/[24px] hidden md:block"
+                  variant="link"
                 >
-                  <route.icon />
-                  <Typography
-                    className="text-[16px]/[20px] md:text-[19px]/[24px] hidden md:block"
-                    variant="link"
-                  >
-                    {route.name}
-                  </Typography>
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <Link
-            to="/"
-            className="flex justify-center items-center gap-3 md:gap-4 md:justify-start"
+                  {route.name}
+                </Typography>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <a
+          href="/"
+          className="flex justify-center items-center gap-3 md:gap-4 md:justify-start"
+        >
+          <Download />
+          <Typography
+            className="text-[16px]/[20px] md:text-[19px]/[24px] hidden md:block"
+            variant="link"
           >
-            <Download />
-            <Typography
-              className="text-[16px]/[20px] md:text-[19px]/[24px] hidden md:block"
-              variant="link"
-            >
-              Instalar PWA
-            </Typography>
-          </Link>
-        </nav>
-      </Router>
+            Instalar PWA
+          </Typography>
+        </a>
+      </nav>
     </div>
   )
 }

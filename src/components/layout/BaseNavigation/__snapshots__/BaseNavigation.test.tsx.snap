@@ -51,7 +51,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
                 <a
                   aria-label="Home"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/"
                   title="Home"
                 >
@@ -98,7 +97,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
                 <a
                   aria-label="Artistas"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/artistas"
                   title="Artistas"
                 >
@@ -135,7 +133,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
                 <a
                   aria-label="Playlists"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/playlists"
                   title="Playlists"
                 >
@@ -165,7 +162,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
                 <a
                   aria-label="Perfil"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/perfil"
                   title="Perfil"
                 >
@@ -201,7 +197,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
             </ul>
             <a
               class="flex justify-center items-center gap-3 md:gap-4 md:justify-start"
-              data-discover="true"
               href="/"
             >
               <svg
@@ -280,7 +275,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
               <a
                 aria-label="Home"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/"
                 title="Home"
               >
@@ -327,7 +321,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
               <a
                 aria-label="Artistas"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/artistas"
                 title="Artistas"
               >
@@ -364,7 +357,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
               <a
                 aria-label="Playlists"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/playlists"
                 title="Playlists"
               >
@@ -394,7 +386,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
               <a
                 aria-label="Perfil"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/perfil"
                 title="Perfil"
               >
@@ -430,7 +421,6 @@ exports[`BaseNavigation component renders the base navigation route with correct
           </ul>
           <a
             class="flex justify-center items-center gap-3 md:gap-4 md:justify-start"
-            data-discover="true"
             href="/"
           >
             <svg

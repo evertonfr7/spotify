@@ -51,7 +51,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
                 <a
                   aria-label="Home"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/"
                   title="Home"
                 >
@@ -98,7 +97,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
                 <a
                   aria-label="Artistas"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/artistas"
                   title="Artistas"
                 >
@@ -135,7 +133,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
                 <a
                   aria-label="Playlists"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/playlists"
                   title="Playlists"
                 >
@@ -165,7 +162,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
                 <a
                   aria-label="Perfil"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                  data-discover="true"
                   href="/perfil"
                   title="Perfil"
                 >
@@ -201,7 +197,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
             </ul>
             <a
               class="flex justify-center items-center gap-3 md:gap-4 md:justify-start"
-              data-discover="true"
               href="/"
             >
               <svg
@@ -299,7 +294,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
               <a
                 aria-label="Home"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/"
                 title="Home"
               >
@@ -346,7 +340,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
               <a
                 aria-label="Artistas"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/artistas"
                 title="Artistas"
               >
@@ -383,7 +376,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
               <a
                 aria-label="Playlists"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/playlists"
                 title="Playlists"
               >
@@ -413,7 +405,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
               <a
                 aria-label="Perfil"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
-                data-discover="true"
                 href="/perfil"
                 title="Perfil"
               >
@@ -449,7 +440,6 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
           </ul>
           <a
             class="flex justify-center items-center gap-3 md:gap-4 md:justify-start"
-            data-discover="true"
             href="/"
           >
             <svg
