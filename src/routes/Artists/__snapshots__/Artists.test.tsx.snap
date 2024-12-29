@@ -11,32 +11,36 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
         <div
           class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:w-[250px] "
         >
-          <div
-            class="mb-11 flex justify-center md:justify-start"
+          <a
+            href="/"
           >
-            <div>
-              <img
-                alt="Spotify Logo"
-                aria-label="Spotify Logo"
-                class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] hidden md:block"
-                height="50"
-                role="img"
-                src="[object Object]"
-                title="Spotify"
-                width="164"
-              />
-              <img
-                alt="Spotify Logo"
-                aria-label="Spotify Logo"
-                class="w-[32px] h-[32px] block md:hidden"
-                height="24"
-                role="img"
-                src="[object Object]"
-                title="Spotify"
-                width="24"
-              />
+            <div
+              class="mb-11 flex justify-center md:justify-start"
+            >
+              <div>
+                <img
+                  alt="Spotify Logo"
+                  aria-label="Spotify Logo"
+                  class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] hidden md:block"
+                  height="50"
+                  role="img"
+                  src="[object Object]"
+                  title="Spotify"
+                  width="164"
+                />
+                <img
+                  alt="Spotify Logo"
+                  aria-label="Spotify Logo"
+                  class="w-[32px] h-[32px] block md:hidden"
+                  height="24"
+                  role="img"
+                  src="[object Object]"
+                  title="Spotify"
+                  width="24"
+                />
+              </div>
             </div>
-          </div>
+          </a>
           <nav
             class="flex h-[calc(100%-80px)] flex-col justify-between"
           >
@@ -95,7 +99,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
                   aria-label="Artistas"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
                   data-discover="true"
-                  href="/artists"
+                  href="/artistas"
                   title="Artistas"
                 >
                   <svg
@@ -162,7 +166,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
                   aria-label="Perfil"
                   class="flex justify-center gap-3 md:gap-4 md:justify-start"
                   data-discover="true"
-                  href="/profile"
+                  href="/perfil"
                   title="Perfil"
                 >
                   <svg
@@ -251,9 +255,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
               >
                 <div
                   class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
-                >
-                  S
-                </div>
+                />
                 <p
                   class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
                 >
@@ -273,32 +275,36 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
       <div
         class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:w-[250px] "
       >
-        <div
-          class="mb-11 flex justify-center md:justify-start"
+        <a
+          href="/"
         >
-          <div>
-            <img
-              alt="Spotify Logo"
-              aria-label="Spotify Logo"
-              class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] hidden md:block"
-              height="50"
-              role="img"
-              src="[object Object]"
-              title="Spotify"
-              width="164"
-            />
-            <img
-              alt="Spotify Logo"
-              aria-label="Spotify Logo"
-              class="w-[32px] h-[32px] block md:hidden"
-              height="24"
-              role="img"
-              src="[object Object]"
-              title="Spotify"
-              width="24"
-            />
+          <div
+            class="mb-11 flex justify-center md:justify-start"
+          >
+            <div>
+              <img
+                alt="Spotify Logo"
+                aria-label="Spotify Logo"
+                class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] hidden md:block"
+                height="50"
+                role="img"
+                src="[object Object]"
+                title="Spotify"
+                width="164"
+              />
+              <img
+                alt="Spotify Logo"
+                aria-label="Spotify Logo"
+                class="w-[32px] h-[32px] block md:hidden"
+                height="24"
+                role="img"
+                src="[object Object]"
+                title="Spotify"
+                width="24"
+              />
+            </div>
           </div>
-        </div>
+        </a>
         <nav
           class="flex h-[calc(100%-80px)] flex-col justify-between"
         >
@@ -357,7 +363,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
                 aria-label="Artistas"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
                 data-discover="true"
-                href="/artists"
+                href="/artistas"
                 title="Artistas"
               >
                 <svg
@@ -424,7 +430,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
                 aria-label="Perfil"
                 class="flex justify-center gap-3 md:gap-4 md:justify-start"
                 data-discover="true"
-                href="/profile"
+                href="/perfil"
                 title="Perfil"
               >
                 <svg
@@ -513,9 +519,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
             >
               <div
                 class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
-              >
-                S
-              </div>
+              />
               <p
                 class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
               >

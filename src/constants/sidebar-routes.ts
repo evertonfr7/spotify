@@ -8,7 +8,7 @@ export const sidebarRoutes = [
   },
   {
     name: 'Artistas',
-    path: '/artists',
+    path: '/artistas',
     icon: Disc,
   },
   {
@@ -18,7 +18,7 @@ export const sidebarRoutes = [
   },
   {
     name: 'Perfil',
-    path: '/profile',
+    path: '/perfil',
     icon: User,
   },
 ]

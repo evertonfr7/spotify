@@ -10,15 +10,21 @@ describe('Avatar Component', () => {
     expect(tree).toMatchSnapshot()
   })
   test('renders avatar with image when src is provided', () => {
-    render(<Avatar src="https://example.com/avatar.jpg" alt="User Avatar" />)
-    const avatarImage = screen.getByAltText(/User Avatar/i)
+    render(
+      <Avatar
+        src="https://example.com/avatar.jpg"
+        title="Avatar"
+        alt="Avatar"
+      />,
+    )
+    const avatarImage = screen.getByAltText(/Avatar/i)
     expect(avatarImage).toBeInTheDocument()
     expect(avatarImage).toHaveAttribute('src', 'https://example.com/avatar.jpg')
   })
 
   test('renders fallback letter when no src is provided', () => {
-    render(<Avatar alt="Fallback Avatar" />)
-    const avatarFallback = screen.getByText(/S/i)
+    render(<Avatar alt="Fallback Avatar" title="Fallback Avatar" />)
+    const avatarFallback = screen.getByText(/F/i)
     expect(avatarFallback).toBeInTheDocument()
   })
 
@@ -75,8 +81,8 @@ describe('Avatar Component', () => {
   })
 
   test('renders default fallback text when no src is provided', () => {
-    render(<Avatar alt="Fallback Avatar" />)
-    const fallbackText = screen.getByText(/S/i)
+    render(<Avatar alt="Fallback Avatar" title="Fallback Avatar" />)
+    const fallbackText = screen.getByText(/F/i)
     expect(fallbackText).toBeInTheDocument()
   })
 })

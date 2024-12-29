@@ -16,7 +16,7 @@ export function Avatar({
     !src && 'bg-[#ff6437]',
   )
   if (!src) {
-    return <div className={className}>S</div>
+    return <div className={className}>{title?.charAt(0).toUpperCase()}</div>
   }
   return (
     <img

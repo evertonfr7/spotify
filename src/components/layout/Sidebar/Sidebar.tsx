@@ -7,9 +7,11 @@ import { Link, BrowserRouter as Router } from 'react-router-dom'
 export function Sidebar(): JSX.Element {
   return (
     <div className="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:w-[250px] ">
-      <div className="mb-11 flex justify-center md:justify-start">
-        <Logo autoColapse />
-      </div>
+      <a href="/">
+        <div className="mb-11 flex justify-center md:justify-start">
+          <Logo autoColapse />
+        </div>
+      </a>
       <Router>
         <nav className="flex h-[calc(100%-80px)] flex-col justify-between">
           <ul className="flex flex-col gap-3 md:gap-6">

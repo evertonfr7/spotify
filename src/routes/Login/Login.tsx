@@ -1,6 +1,7 @@
 import Button from '@/components/ui/Button'
 import Logo from '@/components/ui/Logo'
 import Typography from '@/components/ui/Typography'
+import { LOGIN_URL } from '@/constants/spotify'
 
 export function Login(): JSX.Element {
   return (
@@ -9,7 +10,9 @@ export function Login(): JSX.Element {
       <Typography>
         Entra com sua conta Spotify clicando no botão abaixo
       </Typography>
-      <Button>Entrar</Button>
+      <a href={LOGIN_URL}>
+        <Button>Entrar</Button>
+      </a>
     </div>
   )
 }

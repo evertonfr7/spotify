@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Login component renders the login route with correct snapshot 1`] = `
+exports[`App Component renders the Button component with correct text 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

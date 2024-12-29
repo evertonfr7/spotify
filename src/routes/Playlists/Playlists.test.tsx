@@ -1,6 +1,17 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import { Playlists } from './Playlists'
 
+jest.mock('react-router-dom', () => {
+  const originalModule = jest.requireActual('react-router-dom')
+
+  return {
+    __esModule: true,
+    ...originalModule,
+    useParams: jest.fn(),
+    useHistory: jest.fn(),
+  }
+})
+
 describe('Playlists Component', () => {
   test('renders the playlists route with correct snapshot', () => {
     const tree = render(<Playlists />)

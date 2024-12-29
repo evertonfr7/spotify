@@ -3,8 +3,8 @@ import App from './App'
 
 describe('App Component', () => {
   test('renders the Button component with correct text', () => {
-    render(<App />)
+    const tree = render(<App />)
 
-    expect(true).toBe(true)
+    expect(tree).toMatchSnapshot()
   })
 })
