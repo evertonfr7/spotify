@@ -1,14 +1,14 @@
 import './App.css'
-import Cover from './components/Cover'
+import PlaylistModal from './components/PlaylistModal/PlaylistModal'
 
 function App() {
   return (
     <>
-      <Cover
-        id="cover-1"
-        image="https://placehold.co/72x72"
-        title="Cover 1"
-        subtitle="Subtitle 1"
+      <PlaylistModal
+        isOpen={true}
+        onClose={() => {
+          alert('onClose')
+        }}
       />
     </>
   )
