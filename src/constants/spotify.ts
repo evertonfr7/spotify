@@ -1,4 +1,3 @@
-const REDIRECT_URI = import.meta.env.VITE_SPOTIFY_REDIRECT_URI
 export const API_ENDPOINT = 'https://api.spotify.com/v1'
 const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize'
 const RESPONSE_TYPE = 'token'
@@ -25,4 +24,4 @@ const scopes = [
   'user-follow-modify',
 ].join(' ')
 
-export const LOGIN_URL = `${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=${scopes}&response_type=${RESPONSE_TYPE}&show_dialog=${SHOW_DIALOG}`
+export const LOGIN_URL = `${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${window.location.origin}/callback&scope=${scopes}&response_type=${RESPONSE_TYPE}&show_dialog=${SHOW_DIALOG}`

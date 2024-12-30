@@ -42,7 +42,7 @@ Utilizei o [react-router-dom](https://reactrouter.com/) para o roteamento da apl
 - [x] Utilizar paginação (scroll infinito ou não)
 - [ ] Funcionamento offline
 - [ ] Testes unitários
-- [ ] Deploy da aplicação
+- [x] Deploy da aplicação (Vercel: https://spotify-bay-omega.vercel.app/login)
 
 ## Bônus
 
