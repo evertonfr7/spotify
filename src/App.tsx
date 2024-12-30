@@ -11,7 +11,10 @@ import { getTokenFromUrl } from './utils/getTokenFromUrl'
 import SpotifyWebApi from 'spotify-web-api-js'
 import Callback from './routes/Callback'
 import Cookies from 'js-cookie'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+
 const spotify = new SpotifyWebApi()
+const queryClient = new QueryClient()
 
 const App = () => {
   const savedToken = Cookies.get('spotify_token')
@@ -33,20 +36,22 @@ const App = () => {
   }, [savedToken])
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/callback" element={<Callback />} />
+    <QueryClientProvider client={queryClient}>
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/callback" element={<Callback />} />
 
-        <Route element={<ProtectedRoutes />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/artistas" element={<Artists />} />
-          <Route path="/artistas/:id" element={<Artist />} />
-          <Route path="/playlists" element={<Playlists />} />
-          <Route path="/perfil" element={<Profile />} />
-        </Route>
-      </Routes>
-    </Router>
+          <Route element={<ProtectedRoutes />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/artistas" element={<Artists />} />
+            <Route path="/artistas/:id" element={<Artist />} />
+            <Route path="/playlists" element={<Playlists />} />
+            <Route path="/perfil" element={<Profile />} />
+          </Route>
+        </Routes>
+      </Router>
+    </QueryClientProvider>
   )
 }
 

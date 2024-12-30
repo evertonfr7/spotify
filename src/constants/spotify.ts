@@ -1,4 +1,5 @@
 const REDIRECT_URI = import.meta.env.VITE_SPOTIFY_REDIRECT_URI
+export const API_ENDPOINT = 'https://api.spotify.com/v1'
 const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize'
 const RESPONSE_TYPE = 'token'
 const SHOW_DIALOG = true

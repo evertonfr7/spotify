@@ -7,7 +7,7 @@ exports[`Avatar Component renders the avatar with correct snapshot 1`] = `
     <div>
       <img
         alt="Avatar"
-        class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+        class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
         height="128"
         role="img"
         src="https://example.com/avatar.jpg"
@@ -18,7 +18,7 @@ exports[`Avatar Component renders the avatar with correct snapshot 1`] = `
   "container": <div>
     <img
       alt="Avatar"
-      class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+      class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
       height="128"
       role="img"
       src="https://example.com/avatar.jpg"

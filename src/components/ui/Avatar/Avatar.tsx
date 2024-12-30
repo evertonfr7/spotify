@@ -9,7 +9,7 @@ export function Avatar({
   ariaLabel,
 }: AvatarProps): JSX.Element {
   const className = cn(
-    'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px]',
+    'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px]',
     size === 'sm' && 'w-[32px] h-[32px] md:w-[48px] md:h-[48px]',
     size === 'md' && 'w-[48px] h-[48px] md:w-[64px] md:h-[64px]',
     size === 'lg' && 'w-[64px] h-[64px] md:w-[128px] md:h-[128px]',

@@ -250,7 +250,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
                 class="flex items-center gap-2 md:gap-4 text-white"
               >
                 <div
-                  class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
+                  class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
                 />
                 <p
                   class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
@@ -510,7 +510,7 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
               class="flex items-center gap-2 md:gap-4 text-white"
             >
               <div
-                class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-[20px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
+                class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
               />
               <p
                 class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
