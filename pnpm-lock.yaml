@@ -26,9 +26,6 @@ dependencies:
   react-router-dom:
     specifier: ^7.1.1
     version: 7.1.1(react-dom@18.3.1)(react@18.3.1)
-  spotify-web-api-js:
-    specifier: ^1.5.2
-    version: 1.5.2
   tailwind-merge:
     specifier: ^2.6.0
     version: 2.6.0
@@ -6132,10 +6129,6 @@ packages:
     resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==}
     engines: {node: '>= 10.x'}
     dev: true
-
-  /spotify-web-api-js@1.5.2:
-    resolution: {integrity: sha512-ie1gbg1wCabfobIkXTIBLUMyULS/hMCpF44Cdx2pAO0/+FrjhNSDjlDzcwCEDy+ZIo3Fscs+Gkg/GTeQ/ijo+Q==}
-    dev: false
 
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
