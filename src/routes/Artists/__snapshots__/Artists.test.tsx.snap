@@ -242,23 +242,69 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
               </h2>
             </div>
           </div>
-          <div>
-            <a
-              href="/artist/1"
+          <div
+            class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
+          >
+            <div
+              class="flex gap-4 items-center"
             >
               <div
-                class="flex items-center gap-2 md:gap-4 text-white"
-              >
-                <div
-                  class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
-                />
-                <p
-                  class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
-                >
-                  Test Artist
-                </p>
-              </div>
-            </a>
+                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                role="presentation"
+              />
+            </div>
+            <div
+              class="flex gap-4 items-center"
+            >
+              <div
+                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                role="presentation"
+              />
+            </div>
+            <div
+              class="flex gap-4 items-center"
+            >
+              <div
+                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                role="presentation"
+              />
+            </div>
+            <div
+              class="flex gap-4 items-center"
+            >
+              <div
+                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                role="presentation"
+              />
+            </div>
+            <div
+              class="flex gap-4 items-center"
+            >
+              <div
+                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                role="presentation"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -502,23 +548,69 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
             </h2>
           </div>
         </div>
-        <div>
-          <a
-            href="/artist/1"
+        <div
+          class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
+        >
+          <div
+            class="flex gap-4 items-center"
           >
             <div
-              class="flex items-center gap-2 md:gap-4 text-white"
-            >
-              <div
-                class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px] bg-[#ff6437]"
-              />
-              <p
-                class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
-              >
-                Test Artist
-              </p>
-            </div>
-          </a>
+              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              role="presentation"
+            />
+            <div
+              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              role="presentation"
+            />
+          </div>
+          <div
+            class="flex gap-4 items-center"
+          >
+            <div
+              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              role="presentation"
+            />
+            <div
+              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              role="presentation"
+            />
+          </div>
+          <div
+            class="flex gap-4 items-center"
+          >
+            <div
+              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              role="presentation"
+            />
+            <div
+              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              role="presentation"
+            />
+          </div>
+          <div
+            class="flex gap-4 items-center"
+          >
+            <div
+              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              role="presentation"
+            />
+            <div
+              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              role="presentation"
+            />
+          </div>
+          <div
+            class="flex gap-4 items-center"
+          >
+            <div
+              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              role="presentation"
+            />
+            <div
+              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              role="presentation"
+            />
+          </div>
         </div>
       </div>
     </div>
