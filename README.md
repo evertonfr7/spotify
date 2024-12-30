@@ -37,7 +37,8 @@ Utilizei o [react-router-dom](https://reactrouter.com/) para o roteamento da apl
 - [x] Lint
 - [x] Autenticação via Spotify
 - [x] Listar artistas
-- [ ] Listar albuns de um artista
+- [x] Listar albuns de um artista
+- [x] Criar playlist
 - [x] Utilizar paginação (scroll infinito ou não)
 - [ ] Funcionamento offline
 - [ ] Testes unitários
