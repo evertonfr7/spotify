@@ -9,6 +9,7 @@ export function Logo({ autoColapse = false }: LogoProps): JSX.Element {
     <div>
       <img
         src={logo}
+        data-testid="logo"
         className={cn('w-[114.8px] h-[35px] md:w-[164px] md:h-[50px]', {
           'hidden md:block': collapseConfig,
           block: !collapseConfig,
