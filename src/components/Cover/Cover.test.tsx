@@ -10,13 +10,13 @@ describe('Cover Component', () => {
   }
 
   test('renders the cover with correct snapshot', () => {
-    const tree = render(<Cover {...mockProps} />)
+    const tree = render(<Cover type="album" {...mockProps} />)
 
     expect(tree).toMatchSnapshot()
   })
 
   test('renders the component with the provided props', () => {
-    render(<Cover {...mockProps} />)
+    render(<Cover type="album" {...mockProps} />)
 
     const imageElement = screen.getByRole('img', { name: mockProps.title })
     expect(imageElement).toBeInTheDocument()
@@ -33,11 +33,11 @@ describe('Cover Component', () => {
   })
 
   test('applies responsive classes correctly', () => {
-    render(<Cover {...mockProps} />)
+    render(<Cover type="album" {...mockProps} />)
 
     const imageElement = screen.getByRole('img', { name: mockProps.title })
     expect(imageElement).toHaveClass(
-      'w-[48px] h-[48px] md:w-[72px] md:h-[72px]',
+      'w-[32px] h-[32px] md:w-[48px] md:h-[48px]',
     )
 
     const subtitleElement = screen.getByText(mockProps.subtitle)

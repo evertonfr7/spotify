@@ -11,10 +11,10 @@ exports[`Cover Component renders the cover with correct snapshot 1`] = `
         <img
           alt="Test Title"
           aria-label="Test Title"
-          class="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
-          height="72"
+          class="w-[32px] h-[32px] md:w-[48px] md:h-[48px]"
+          height="48"
           src="test-image.jpg"
-          width="72"
+          width="48"
         />
         <div>
           <p
@@ -38,10 +38,10 @@ exports[`Cover Component renders the cover with correct snapshot 1`] = `
       <img
         alt="Test Title"
         aria-label="Test Title"
-        class="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
-        height="72"
+        class="w-[32px] h-[32px] md:w-[48px] md:h-[48px]"
+        height="48"
         src="test-image.jpg"
-        width="72"
+        width="48"
       />
       <div>
         <p

@@ -27,7 +27,7 @@ export function Artists(): JSX.Element {
       queryFn: ({ pageParam = 0 }) =>
         getTopUserArtists({ limit, offset: pageParam }),
       initialPageParam: 0,
-      getNextPageParam: (lastPage) => lastPage.data.offset + ARTISTS_PER_PAGE,
+      getNextPageParam: (lastPage) => lastPage.data.offset + limit,
     })
 
   const loadMore = useCallback(() => {

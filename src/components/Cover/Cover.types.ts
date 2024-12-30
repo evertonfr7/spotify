@@ -3,4 +3,5 @@ export interface CoverProps {
   image: string
   title: string
   subtitle: string
+  type: 'album' | 'playlist'
 }

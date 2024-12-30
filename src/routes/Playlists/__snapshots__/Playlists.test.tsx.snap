@@ -9,7 +9,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
         class="w-full h-screen flex justify-between"
       >
         <div
-          class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:w-[250px] "
+          class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] "
         >
           <a
             href="/"
@@ -250,29 +250,107 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
               </button>
             </div>
           </div>
-          <div>
+          <div
+            class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
+          >
             <div
-              class="flex items-center gap-2 md:gap-4 text-white"
+              class="flex gap-2 md:gap-4 items-center"
             >
-              <img
-                alt="Test Playlist"
-                aria-label="Test Playlist"
-                class="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
-                height="72"
-                src=""
-                width="72"
-              />
               <div>
-                <p
-                  class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
-                >
-                  Test Playlist
-                </p>
-                <p
-                  class="font-default font-normal text-white/80 text-[10px]/[18px] md:text-[12px]/[20px]"
-                >
-                  lalalal
-                </p>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                  role="presentation"
+                />
+              </div>
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                  role="presentation"
+                />
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                  role="presentation"
+                />
+              </div>
+            </div>
+            <div
+              class="flex gap-2 md:gap-4 items-center"
+            >
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                  role="presentation"
+                />
+              </div>
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                  role="presentation"
+                />
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                  role="presentation"
+                />
+              </div>
+            </div>
+            <div
+              class="flex gap-2 md:gap-4 items-center"
+            >
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                  role="presentation"
+                />
+              </div>
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                  role="presentation"
+                />
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                  role="presentation"
+                />
+              </div>
+            </div>
+            <div
+              class="flex gap-2 md:gap-4 items-center"
+            >
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                  role="presentation"
+                />
+              </div>
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                  role="presentation"
+                />
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                  role="presentation"
+                />
+              </div>
+            </div>
+            <div
+              class="flex gap-2 md:gap-4 items-center"
+            >
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                  role="presentation"
+                />
+              </div>
+              <div>
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                  role="presentation"
+                />
+                <div
+                  class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                  role="presentation"
+                />
               </div>
             </div>
           </div>
@@ -285,7 +363,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
       class="w-full h-screen flex justify-between"
     >
       <div
-        class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:w-[250px] "
+        class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] "
       >
         <a
           href="/"
@@ -526,29 +604,107 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
             </button>
           </div>
         </div>
-        <div>
+        <div
+          class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
+        >
           <div
-            class="flex items-center gap-2 md:gap-4 text-white"
+            class="flex gap-2 md:gap-4 items-center"
           >
-            <img
-              alt="Test Playlist"
-              aria-label="Test Playlist"
-              class="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
-              height="72"
-              src=""
-              width="72"
-            />
             <div>
-              <p
-                class="font-default text-[12px]/[18px] text-white md:text-[14px]/[20px] font-normal"
-              >
-                Test Playlist
-              </p>
-              <p
-                class="font-default font-normal text-white/80 text-[10px]/[18px] md:text-[12px]/[20px]"
-              >
-                lalalal
-              </p>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                role="presentation"
+              />
+            </div>
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                role="presentation"
+              />
+            </div>
+          </div>
+          <div
+            class="flex gap-2 md:gap-4 items-center"
+          >
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                role="presentation"
+              />
+            </div>
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                role="presentation"
+              />
+            </div>
+          </div>
+          <div
+            class="flex gap-2 md:gap-4 items-center"
+          >
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                role="presentation"
+              />
+            </div>
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                role="presentation"
+              />
+            </div>
+          </div>
+          <div
+            class="flex gap-2 md:gap-4 items-center"
+          >
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                role="presentation"
+              />
+            </div>
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                role="presentation"
+              />
+            </div>
+          </div>
+          <div
+            class="flex gap-2 md:gap-4 items-center"
+          >
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
+                role="presentation"
+              />
+            </div>
+            <div>
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[150px] h-[18px] mb-1"
+                role="presentation"
+              />
+              <div
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
+                role="presentation"
+              />
             </div>
           </div>
         </div>

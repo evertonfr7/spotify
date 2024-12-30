@@ -4,15 +4,42 @@ import Typography from '../ui/Typography'
 import Input from '../ui/Input'
 import Button from '../ui/Button'
 import { Close } from '../ui/icons'
+import { useMutation, useQuery } from '@tanstack/react-query'
+import { createPlaylist } from '@/resources/http/api/mutations/create-playlist'
+import { useState } from 'react'
+import { getMe } from '@/resources/http/api/queries/me'
 
 export function PlaylistModal({
   isOpen,
   onClose,
 }: PlaylistModalProps): JSX.Element | null {
-  if (!isOpen) return null
+  const [playlistName, setPlaylistName] = useState('')
 
   const handleClose = () => {
     onClose()
+  }
+
+  const { data: response } = useQuery({
+    queryKey: ['me'],
+    queryFn: getMe,
+  })
+
+  const mutation = useMutation({
+    mutationFn: () =>
+      createPlaylist({
+        user_id: response?.data?.id as string,
+        name: playlistName,
+        description: '',
+      }),
+    onSuccess: () => {
+      window.location.href = `/playlists`
+    },
+  })
+
+  if (!isOpen) return null
+
+  if (mutation.isSuccess) {
+    handleClose()
   }
 
   return ReactDOM.createPortal(
@@ -31,10 +58,21 @@ export function PlaylistModal({
             <Typography className="text-center mb-4 md:mb-6">
               Dê um nome a sua playlist
             </Typography>
-            <Input data-testid="playlist-modal-input" />
+            <Input
+              data-testid="playlist-modal-input"
+              onChange={(e) => {
+                setPlaylistName(e.target.value)
+              }}
+            />
           </div>
 
-          <Button className="w-[fit-content]">Criar</Button>
+          <Button
+            className="w-[fit-content]"
+            disabled={mutation.isPending}
+            onClick={() => mutation.mutate()}
+          >
+            Criar
+          </Button>
         </div>
 
         <button

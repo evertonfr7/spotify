@@ -42,7 +42,7 @@ export function Artist(): JSX.Element {
       queryFn: ({ pageParam = 0 }) =>
         getArtistAlbuns({ id: id as string, limit, offset: pageParam }),
       initialPageParam: 0,
-      getNextPageParam: (lastPage) => lastPage.data.offset + ALBUMS_PER_PAGE,
+      getNextPageParam: (lastPage) => lastPage.data.offset + limit,
     })
 
   const loadMore = useCallback(() => {
@@ -89,6 +89,7 @@ export function Artist(): JSX.Element {
               <div key={index} className="flex flex-col gap-4">
                 {page.data.items.map((album: Album) => (
                   <Cover
+                    type="album"
                     key={album.id}
                     id={album.id}
                     title={album.name}
