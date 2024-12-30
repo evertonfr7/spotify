@@ -38,7 +38,7 @@ const App = () => {
           <Route element={<ProtectedRoutes />}>
             <Route path="/" element={<Home />} />
             <Route path="/artistas" element={<Artists />} />
-            <Route path="/artistas/:id" element={<Artist />} />
+            <Route path="/artista/:id" element={<Artist />} />
             <Route path="/playlists" element={<Playlists />} />
             <Route path="/perfil" element={<Profile />} />
           </Route>

@@ -7,13 +7,13 @@ import { ARTISTS_PER_PAGE } from '@/constants'
 import { getTopUserArtists } from '@/resources/http/api/queries/top-user-artists'
 import { Artist as ArtistType } from '@/resources/http/api/queries/top-user-artists/types'
 import { useInfiniteQuery } from '@tanstack/react-query'
-import { useCallback, useRef } from 'react'
+import { useCallback } from 'react'
 
 const LoadingArtists = () => {
   return Array.from({ length: ARTISTS_PER_PAGE }).map((_, index) => (
-    <div className="flex gap-4 items-center" key={index}>
-      <Skeleton circle className="w-[64px] h-[64px]" />
-      <Skeleton className="w-[150px] h-[20px]" />
+    <div className="flex gap-2 md:gap-4 items-center" key={index}>
+      <Skeleton circle className="w-[48px] h-[48px] md:w-[64px] md:h-[64px]" />
+      <Skeleton className="w-[100px] h-[18px]" />
     </div>
   ))
 }
@@ -29,8 +29,6 @@ export function Artists(): JSX.Element {
       initialPageParam: 0,
       getNextPageParam: (lastPage) => lastPage.data.offset + ARTISTS_PER_PAGE,
     })
-
-  const loaderRef = useRef<HTMLDivElement>(null)
 
   const loadMore = useCallback(() => {
     if (hasNextPage && !isFetchingNextPage) {
@@ -55,7 +53,7 @@ export function Artists(): JSX.Element {
                   <Artist
                     key={artist.id}
                     id={artist.id}
-                    href={`/artist/${artist.id}`}
+                    href={`/artista/${artist.id}`}
                     name={artist.name}
                     image={artist.images[0].url}
                   />
@@ -63,11 +61,13 @@ export function Artists(): JSX.Element {
               </div>
             ))}
             {hasNextPage && (
-              <div ref={loaderRef}>
-                <Button disabled={isFetchingNextPage} onClick={loadMore}>
-                  Carregar mais
-                </Button>
-              </div>
+              <Button
+                className="w-[fit-content]"
+                disabled={isFetchingNextPage}
+                onClick={loadMore}
+              >
+                Carregar mais
+              </Button>
             )}
           </>
         )}

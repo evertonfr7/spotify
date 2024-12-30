@@ -1,7 +1,7 @@
 import Button from '@/components/ui/Button'
 import Logo from '@/components/ui/Logo'
 import Typography from '@/components/ui/Typography'
-import { LOGIN_URL } from '@/constants/spotify'
+import { LOGIN_URL } from '@/constants'
 
 export function Login(): JSX.Element {
   return (

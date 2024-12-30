@@ -246,62 +246,62 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
             class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
           >
             <div
-              class="flex gap-4 items-center"
+              class="flex gap-2 md:gap-4 items-center"
             >
               <div
-                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
                 role="presentation"
               />
               <div
-                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
                 role="presentation"
               />
             </div>
             <div
-              class="flex gap-4 items-center"
+              class="flex gap-2 md:gap-4 items-center"
             >
               <div
-                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
                 role="presentation"
               />
               <div
-                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
                 role="presentation"
               />
             </div>
             <div
-              class="flex gap-4 items-center"
+              class="flex gap-2 md:gap-4 items-center"
             >
               <div
-                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
                 role="presentation"
               />
               <div
-                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
                 role="presentation"
               />
             </div>
             <div
-              class="flex gap-4 items-center"
+              class="flex gap-2 md:gap-4 items-center"
             >
               <div
-                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
                 role="presentation"
               />
               <div
-                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
                 role="presentation"
               />
             </div>
             <div
-              class="flex gap-4 items-center"
+              class="flex gap-2 md:gap-4 items-center"
             >
               <div
-                class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+                class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
                 role="presentation"
               />
               <div
-                class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+                class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
                 role="presentation"
               />
             </div>
@@ -552,62 +552,62 @@ exports[`Artists component renders the artists route with correct snapshot 1`] =
           class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
         >
           <div
-            class="flex gap-4 items-center"
+            class="flex gap-2 md:gap-4 items-center"
           >
             <div
-              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
               role="presentation"
             />
             <div
-              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
               role="presentation"
             />
           </div>
           <div
-            class="flex gap-4 items-center"
+            class="flex gap-2 md:gap-4 items-center"
           >
             <div
-              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
               role="presentation"
             />
             <div
-              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
               role="presentation"
             />
           </div>
           <div
-            class="flex gap-4 items-center"
+            class="flex gap-2 md:gap-4 items-center"
           >
             <div
-              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
               role="presentation"
             />
             <div
-              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
               role="presentation"
             />
           </div>
           <div
-            class="flex gap-4 items-center"
+            class="flex gap-2 md:gap-4 items-center"
           >
             <div
-              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
               role="presentation"
             />
             <div
-              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
               role="presentation"
             />
           </div>
           <div
-            class="flex gap-4 items-center"
+            class="flex gap-2 md:gap-4 items-center"
           >
             <div
-              class="animate-pulse bg-gray-200 rounded-full w-[64px] h-[64px]"
+              class="animate-pulse bg-gray-200 rounded-full w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
               role="presentation"
             />
             <div
-              class="animate-pulse bg-gray-200 rounded w-[150px] h-[20px]"
+              class="animate-pulse bg-gray-200 rounded w-[100px] h-[18px]"
               role="presentation"
             />
           </div>

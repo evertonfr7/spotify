@@ -30,7 +30,7 @@ exports[`Login component renders the login route with correct snapshot 1`] = `
           href="https://accounts.spotify.com/authorize?client_id=undefined&redirect_uri=undefined&scope=user-read-email user-read-private user-read-playback-state user-modify-playback-state user-read-currently-playing user-read-playback-position user-read-recently-played user-top-read user-library-read user-library-modify playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public streaming user-follow-read user-follow-modify&response_type=token&show_dialog=true"
         >
           <button
-            class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[32px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+            class="bg-[#57B660] text-[#181414] rounded-3xl px-8 min-h-[32px] font-default text-[14px]/[18px] font-bold md:min-h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
             type="button"
           >
             Entrar
@@ -65,7 +65,7 @@ exports[`Login component renders the login route with correct snapshot 1`] = `
         href="https://accounts.spotify.com/authorize?client_id=undefined&redirect_uri=undefined&scope=user-read-email user-read-private user-read-playback-state user-modify-playback-state user-read-currently-playing user-read-playback-position user-read-recently-played user-top-read user-library-read user-library-modify playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public streaming user-follow-read user-follow-modify&response_type=token&show_dialog=true"
       >
         <button
-          class="bg-[#57B660] text-[#181414] rounded-3xl px-8 h-[32px] font-default text-[14px]/[18px] font-bold md:h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
+          class="bg-[#57B660] text-[#181414] rounded-3xl px-8 min-h-[32px] font-default text-[14px]/[18px] font-bold md:min-h-[42px] md:px-10 md:text-base/[20px] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#57B660]"
           type="button"
         >
           Entrar
