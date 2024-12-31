@@ -6,10 +6,10 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
   "baseElement": <body>
     <div>
       <div
-        class="w-full h-screen flex justify-between"
+        class="w-full h-[100dvh] flex justify-between"
       >
         <div
-          class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] "
+          class="w-[60px] h-[100dvh] bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] "
         >
           <a
             href="/"
@@ -248,10 +248,10 @@ exports[`Profile component renders the profile route with correct snapshot 1`] =
   </body>,
   "container": <div>
     <div
-      class="w-full h-screen flex justify-between"
+      class="w-full h-[100dvh] flex justify-between"
     >
       <div
-        class="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] "
+        class="w-[60px] h-[100dvh] bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] "
       >
         <a
           href="/"

@@ -5,7 +5,7 @@ import { sidebarRoutes } from '@/constants'
 
 export function Sidebar(): JSX.Element {
   return (
-    <div className="w-[60px] h-screen bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] ">
+    <div className="w-[60px] h-[100dvh] bg-black p-2 py-4 text-white md:py-8 md:p-8 md:min-w-[250px] ">
       <a href="/">
         <div className="mb-11 flex justify-center md:justify-start">
           <Logo autoColapse />
