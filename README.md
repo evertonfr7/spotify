@@ -29,6 +29,14 @@ E eu também inclui configurações do [editorconfig](https://editorconfig.org/)
 ### Roteamento
 Utilizei o [react-router-dom](https://reactrouter.com/) para o roteamento da aplicação.
 
+### Sonarqube
+Instalei o [sonarqube](https://www.sonarqube.org/) para fazer a qualidade de código.
+rodei local, e melhorei a qualidade do código com base no reporte gerado pelo sonarqube.
+
+`docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest`
+
+`SONAR_TOKEN=<SEU_TOKEN> pnpm sonar`
+
 # Requisitos
 
 ## Requisitos obrigatórios
@@ -50,5 +58,5 @@ Utilizei o [react-router-dom](https://reactrouter.com/) para o roteamento da apl
 - [ ] Integração com Sentry
 - [ ] CI/CD
 - [x] Responsividade (celular e tablet)
-- [ ] Qualidade de código (Sonarqube)
+- [x] Qualidade de código (Sonarqube)
 - [x] PWA
