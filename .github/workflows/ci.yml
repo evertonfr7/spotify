@@ -37,8 +37,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Build application
-        run: npm run build
+        run: npm build
 
   # Job to deploy the application after build
   deploy:
