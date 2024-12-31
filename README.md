@@ -40,9 +40,9 @@ Utilizei o [react-router-dom](https://reactrouter.com/) para o roteamento da apl
 - [x] Listar albuns de um artista
 - [x] Criar playlist
 - [x] Utilizar paginação (scroll infinito ou não)
-- [ ] Funcionamento offline
-- [ ] Testes unitários
-- [x] Deploy da aplicação (Vercel: https://spotify-bay-omega.vercel.app/login)
+- [x] Funcionamento offline
+- [x] Testes unitários
+- [x] Deploy da aplicação (Vercel: https://spotify-orcin-psi.vercel.app/login)
 
 ## Bônus
 
@@ -51,4 +51,4 @@ Utilizei o [react-router-dom](https://reactrouter.com/) para o roteamento da apl
 - [ ] CI/CD
 - [x] Responsividade (celular e tablet)
 - [ ] Qualidade de código (Sonarqube)
-- [ ] PWA
+- [x] PWA
