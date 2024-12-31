@@ -49,7 +49,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
               <li>
                 <a
                   aria-label="Home"
-                  class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                  class="flex justify-center items-center gap-3 md:gap-4 md:justify-start hover:text-white text-white"
                   href="/"
                   title="Home"
                 >
@@ -95,7 +95,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
               <li>
                 <a
                   aria-label="Artistas"
-                  class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                  class="flex justify-center items-center gap-3 md:gap-4 md:justify-start text-gray-500 hover:text-white"
                   href="/artistas"
                   title="Artistas"
                 >
@@ -131,7 +131,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
               <li>
                 <a
                   aria-label="Playlists"
-                  class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                  class="flex justify-center items-center gap-3 md:gap-4 md:justify-start text-gray-500 hover:text-white"
                   href="/playlists"
                   title="Playlists"
                 >
@@ -160,7 +160,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
               <li>
                 <a
                   aria-label="Perfil"
-                  class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                  class="flex justify-center items-center gap-3 md:gap-4 md:justify-start text-gray-500 hover:text-white"
                   href="/perfil"
                   title="Perfil"
                 >
@@ -378,7 +378,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
             <li>
               <a
                 aria-label="Home"
-                class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                class="flex justify-center items-center gap-3 md:gap-4 md:justify-start hover:text-white text-white"
                 href="/"
                 title="Home"
               >
@@ -424,7 +424,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
             <li>
               <a
                 aria-label="Artistas"
-                class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                class="flex justify-center items-center gap-3 md:gap-4 md:justify-start text-gray-500 hover:text-white"
                 href="/artistas"
                 title="Artistas"
               >
@@ -460,7 +460,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
             <li>
               <a
                 aria-label="Playlists"
-                class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                class="flex justify-center items-center gap-3 md:gap-4 md:justify-start text-gray-500 hover:text-white"
                 href="/playlists"
                 title="Playlists"
               >
@@ -489,7 +489,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
             <li>
               <a
                 aria-label="Perfil"
-                class="flex justify-center gap-3 md:gap-4 md:justify-start"
+                class="flex justify-center items-center gap-3 md:gap-4 md:justify-start text-gray-500 hover:text-white"
                 href="/perfil"
                 title="Perfil"
               >

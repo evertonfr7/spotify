@@ -3,6 +3,7 @@ import { Download } from '@/components/ui/icons'
 import Logo from '@/components/ui/Logo'
 import Typography from '@/components/ui/Typography'
 import { sidebarRoutes } from '@/constants'
+import { cn } from '@/utils/cn'
 
 interface BeforeInstallPromptEvent extends Event {
   prompt: () => Promise<void>
@@ -56,7 +57,10 @@ export function Sidebar(): JSX.Element {
                 href={route.path}
                 aria-label={route.name}
                 title={route.name}
-                className="flex justify-center gap-3 md:gap-4 md:justify-start"
+                className={cn(
+                  'flex justify-center items-center gap-3 md:gap-4 md:justify-start text-gray-500 hover:text-white',
+                  route.path === window.location.pathname && 'text-white',
+                )}
               >
                 <route.icon />
                 <Typography
