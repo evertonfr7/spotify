@@ -198,7 +198,17 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
         </div>
         <div
           class="w-full h-screen text-white p-4 md:p-8"
-        />
+        >
+          <div
+            class="flex h-[100vh] flex-col justify-center items-center gap-4"
+          >
+            <p
+              class="font-default font-medium md:text-[14px]/[20px] text-white text-lg"
+            >
+              Seja bem-vindo ao Spotify Luizalabs Challenge!
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>,
@@ -396,7 +406,17 @@ exports[`Home component renders the home route with correct snapshot 1`] = `
       </div>
       <div
         class="w-full h-screen text-white p-4 md:p-8"
-      />
+      >
+        <div
+          class="flex h-[100vh] flex-col justify-center items-center gap-4"
+        >
+          <p
+            class="font-default font-medium md:text-[14px]/[20px] text-white text-lg"
+          >
+            Seja bem-vindo ao Spotify Luizalabs Challenge!
+          </p>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],
