@@ -1,6 +1,15 @@
 import '@testing-library/jest-dom'
 import { render } from '@testing-library/react'
-import { Disc, House, Play, User, Download, ArrowLeft, Close } from './index'
+import {
+  Disc,
+  House,
+  Play,
+  User,
+  Download,
+  ArrowLeft,
+  Close,
+  Offline,
+} from './index'
 
 describe('Icons components', () => {
   test('renders the icons with correct snapshot', () => {
@@ -13,6 +22,7 @@ describe('Icons components', () => {
         <Download className="w-10 h-10" />
         <ArrowLeft className="w-10 h-10" />
         <Close className="w-10 h-10" />
+        <Offline className="w-10 h-10" />
       </div>,
     )
 
