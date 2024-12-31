@@ -18,7 +18,6 @@ export function Logo({ autoColapse = false }: LogoProps): JSX.Element {
         title="Spotify"
         width={164}
         height={50}
-        role="img"
         aria-label="Spotify Logo"
       />
       {collapseConfig && (
@@ -32,7 +31,6 @@ export function Logo({ autoColapse = false }: LogoProps): JSX.Element {
           title="Spotify"
           width={24}
           height={24}
-          role="img"
           aria-label="Spotify Logo"
         />
       )}

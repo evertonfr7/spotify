@@ -24,7 +24,6 @@ exports[`Artist component renders the artist route with correct snapshot 1`] = `
                   class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] hidden md:block"
                   data-testid="logo"
                   height="50"
-                  role="img"
                   src="[object Object]"
                   title="Spotify"
                   width="164"
@@ -34,7 +33,6 @@ exports[`Artist component renders the artist route with correct snapshot 1`] = `
                   aria-label="Spotify Logo"
                   class="w-[32px] h-[32px] block md:hidden"
                   height="24"
-                  role="img"
                   src="[object Object]"
                   title="Spotify"
                   width="24"
@@ -205,8 +203,10 @@ exports[`Artist component renders the artist route with correct snapshot 1`] = `
             class="flex items-center justify-between mb-4 md:mb-8"
           >
             <div
+              aria-label="Voltar"
               class="flex items-center gap-2"
               role="button"
+              tabindex="0"
             >
               <svg
                 fill="none"
@@ -368,7 +368,6 @@ exports[`Artist component renders the artist route with correct snapshot 1`] = `
                 class="w-[114.8px] h-[35px] md:w-[164px] md:h-[50px] hidden md:block"
                 data-testid="logo"
                 height="50"
-                role="img"
                 src="[object Object]"
                 title="Spotify"
                 width="164"
@@ -378,7 +377,6 @@ exports[`Artist component renders the artist route with correct snapshot 1`] = `
                 aria-label="Spotify Logo"
                 class="w-[32px] h-[32px] block md:hidden"
                 height="24"
-                role="img"
                 src="[object Object]"
                 title="Spotify"
                 width="24"
@@ -549,8 +547,10 @@ exports[`Artist component renders the artist route with correct snapshot 1`] = `
           class="flex items-center justify-between mb-4 md:mb-8"
         >
           <div
+            aria-label="Voltar"
             class="flex items-center gap-2"
             role="button"
+            tabindex="0"
           >
             <svg
               fill="none"

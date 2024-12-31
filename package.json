@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "prepare": "husky",
     "test": "jest",
-    "cov": "jest --coverage --collectCoverageFrom='src/**/*.{ts,tsx}'"
+    "cov": "jest --coverage --collectCoverageFrom='src/**/*.{ts,tsx}'",
+    "sonar": "sonar-scanner -Dsonar.host.url=http://localhost:9000 -Dsonar.token=$SONAR_TOKEN"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.62.11",
@@ -55,6 +56,7 @@
     "lint-staged": "^15.2.11",
     "postcss": "^8.4.49",
     "prettier": "3.4.2",
+    "sonarqube-scanner": "^4.2.6",
     "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
     "typescript": "~5.6.2",
@@ -70,5 +72,10 @@
     "hooks": {
       "pre-commit": "prettier --write . && git add -A ."
     }
+  },
+  "jestSonar": {
+    "reportPath": "reports",
+    "reportFile": "test-report.xml",
+    "indent": 4
   }
 }

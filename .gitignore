@@ -9,6 +9,7 @@ lerna-debug.log*
 
 .env
 coverage
+.sonar
 node_modules
 dist
 dist-ssr

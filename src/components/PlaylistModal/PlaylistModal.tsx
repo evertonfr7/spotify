@@ -47,10 +47,14 @@ export function PlaylistModal({
       data-testid="playlist-modal-background"
       className={`fixed inset-0 p-6 bg-black bg-opacity-40 flex justify-center items-center z-50 transition-opacity duration-300 ${isOpen ? 'opacity-100 flex' : 'opacity-0 hidden'}`}
       onClick={handleClose}
+      onKeyDown={handleClose}
+      tabIndex={-1}
     >
       <div
         data-testid="playlist-modal-content"
         className="relative rounded-[32px] bg-[#303030] p-6 md:p-8 h-[250px] md:w-[600px] md:h-[346px] flex flex-col justify-center gap-4"
+        aria-modal="true"
+        aria-labelledby="playlist-modal-title"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex flex-col h-full items-center justify-between pt-7 md:pt-16">

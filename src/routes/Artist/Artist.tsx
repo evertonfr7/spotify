@@ -57,6 +57,9 @@ export function Artist(): JSX.Element {
         <div
           className="flex items-center gap-2"
           role="button"
+          tabIndex={0}
+          aria-label="Voltar"
+          onKeyDown={() => window.history.back()}
           onClick={() => window.history.back()}
         >
           <ArrowLeft />

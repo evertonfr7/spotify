@@ -23,7 +23,6 @@ export function Avatar({
       src={src}
       alt={alt}
       title={title}
-      role="img"
       aria-label={ariaLabel}
       width={128}
       height={128}
