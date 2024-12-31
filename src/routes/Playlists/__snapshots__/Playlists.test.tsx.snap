@@ -226,7 +226,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
             </div>
           </div>
           <div
-            class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
+            class="flex flex-col gap-4 overflow-y-auto h-[calc(100dvh-122px)] pb-4"
           >
             <div
               class="flex gap-2 md:gap-4 items-center"
@@ -555,7 +555,7 @@ exports[`Playlists Component renders the playlists route with correct snapshot 1
           </div>
         </div>
         <div
-          class="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4"
+          class="flex flex-col gap-4 overflow-y-auto h-[calc(100dvh-122px)] pb-4"
         >
           <div
             class="flex gap-2 md:gap-4 items-center"

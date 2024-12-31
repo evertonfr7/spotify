@@ -42,7 +42,7 @@ export function Artists(): JSX.Element {
         title="Top Artistas"
         subtitle="Aqui você encontra seus artistas preferidos"
       />
-      <div className="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4">
+      <div className="flex flex-col gap-4 overflow-y-auto pb-4 h-[calc(100dvh-122px)]">
         {isLoading ? (
           <LoadingArtists />
         ) : (

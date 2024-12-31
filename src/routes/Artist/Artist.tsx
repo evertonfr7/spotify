@@ -83,7 +83,7 @@ export function Artist(): JSX.Element {
           />
         )}
       </div>
-      <div className="flex flex-col gap-4 overflow-y-auto h-[calc(100vh-122px)] pb-4">
+      <div className="flex flex-col gap-4 overflow-y-auto h-[calc(100dvh-122px)] pb-4">
         {isLoading ? (
           <LoadingAlbums />
         ) : (
