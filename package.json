@@ -14,6 +14,7 @@
     "sonar": "sonar-scanner -Dsonar.host.url=http://localhost:9000 -Dsonar.token=$SONAR_TOKEN"
   },
   "dependencies": {
+    "@sentry/react": "^8.47.0",
     "@tanstack/react-query": "^5.62.11",
     "axios": "^1.7.9",
     "clsx": "^2.1.1",
