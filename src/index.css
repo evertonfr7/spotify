@@ -26,4 +26,5 @@
 
 body {
   background-color: var(--primary-bg-color);
+  overflow: hidden;
 }
