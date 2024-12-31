@@ -12,8 +12,10 @@
     "test": "jest",
     "cov": "jest --coverage --collectCoverageFrom='src/**/*.{ts,tsx}'",
     "sonar": "sonar-scanner -Dsonar.host.url=http://localhost:9000 -Dsonar.token=$SONAR_TOKEN",
-    "test:cypress": "start-server-and-test dev http://localhost:5173 cy:open",
-    "cy:open": "cypress open"
+    "test:cypress": "start-server-and-test dev http://localhost:5173 cy:run",
+    "test:cypress:open": "start-server-and-test dev http://localhost:5173 cy:open",
+    "cy:run": "cypress run --headless --browser chrome",
+    "cy:open": "cypress open --browser chrome"
   },
   "dependencies": {
     "@sentry/react": "^8.47.0",
