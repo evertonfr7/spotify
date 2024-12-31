@@ -54,7 +54,7 @@ rodei local, e melhorei a qualidade do código com base no reporte gerado pelo s
 
 ## Bônus
 
-- [ ] Testes E2E
+- [x] Testes E2E
 - [x] Integração com Sentry
 - [ ] CI/CD
 - [x] Responsividade (celular e tablet)

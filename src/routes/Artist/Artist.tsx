@@ -88,9 +88,9 @@ export function Artist(): JSX.Element {
           <LoadingAlbums />
         ) : (
           <>
-            {data?.pages.map((page, index) => (
+            {data?.pages?.map((page, index) => (
               <div key={index} className="flex flex-col gap-4">
-                {page.data.items.map((album: Album) => (
+                {page?.data?.items?.map((album: Album) => (
                   <Cover
                     type="album"
                     key={album.id}

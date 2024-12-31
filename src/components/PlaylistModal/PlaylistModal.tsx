@@ -47,7 +47,6 @@ export function PlaylistModal({
       data-testid="playlist-modal-background"
       className={`fixed inset-0 p-6 bg-black bg-opacity-40 flex justify-center items-center z-50 transition-opacity duration-300 ${isOpen ? 'opacity-100 flex' : 'opacity-0 hidden'}`}
       onClick={handleClose}
-      onKeyDown={handleClose}
       tabIndex={-1}
     >
       <div

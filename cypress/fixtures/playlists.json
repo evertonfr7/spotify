@@ -1,0 +1,200 @@
+{
+  "href": "https://api.spotify.com/v1/users/31txz7oos7spvstrpyq5szdg3jyy/playlists?offset=0&limit=5&locale=en-US,en;q%3D0.9,pt-BR;q%3D0.8,pt;q%3D0.7",
+  "limit": 5,
+  "next": "https://api.spotify.com/v1/users/31txz7oos7spvstrpyq5szdg3jyy/playlists?offset=5&limit=5&locale=en-US,en;q%3D0.9,pt-BR;q%3D0.8,pt;q%3D0.7",
+  "offset": 0,
+  "previous": null,
+  "total": 42,
+  "items": [
+      {
+          "collaborative": false,
+          "description": "Playlist created by the tutorial on developer.spotify.com",
+          "external_urls": {
+              "spotify": "https://open.spotify.com/playlist/48vyRIR73PukU0W8nQzo1q"
+          },
+          "href": "https://api.spotify.com/v1/playlists/48vyRIR73PukU0W8nQzo1q",
+          "id": "48vyRIR73PukU0W8nQzo1q",
+          "images": [
+              {
+                  "height": null,
+                  "url": "https://i.scdn.co/image/ab67616d00001e0263ecdc2fc549275b51fbb9a7",
+                  "width": null
+              }
+          ],
+          "name": "My top tracks playlist",
+          "owner": {
+              "display_name": "everton7fr",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/user/31txz7oos7spvstrpyq5szdg3jyy"
+              },
+              "href": "https://api.spotify.com/v1/users/31txz7oos7spvstrpyq5szdg3jyy",
+              "id": "31txz7oos7spvstrpyq5szdg3jyy",
+              "type": "user",
+              "uri": "spotify:user:31txz7oos7spvstrpyq5szdg3jyy"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "AAAAAoalcZCwKyZ/u8rYm119kXAp0eC/",
+          "tracks": {
+              "href": "https://api.spotify.com/v1/playlists/48vyRIR73PukU0W8nQzo1q/tracks",
+              "total": 5
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:48vyRIR73PukU0W8nQzo1q"
+      },
+      {
+          "collaborative": false,
+          "description": "",
+          "external_urls": {
+              "spotify": "https://open.spotify.com/playlist/3My4SZAaqkUJWHd2IWZofj"
+          },
+          "href": "https://api.spotify.com/v1/playlists/3My4SZAaqkUJWHd2IWZofj",
+          "id": "3My4SZAaqkUJWHd2IWZofj",
+          "images": [
+              {
+                  "height": null,
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849a9de182243711bc039e714c",
+                  "width": null
+              }
+          ],
+          "name": "Late Night Drive 🏎️🔥",
+          "owner": {
+              "display_name": "Takeover Records",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/user/316bmzaqxsh4msa5wa2c56a2ukce"
+              },
+              "href": "https://api.spotify.com/v1/users/316bmzaqxsh4msa5wa2c56a2ukce",
+              "id": "316bmzaqxsh4msa5wa2c56a2ukce",
+              "type": "user",
+              "uri": "spotify:user:316bmzaqxsh4msa5wa2c56a2ukce"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "AAABcruEfveOmGrZQxwLhLDntEXXlNHk",
+          "tracks": {
+              "href": "https://api.spotify.com/v1/playlists/3My4SZAaqkUJWHd2IWZofj/tracks",
+              "total": 474
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:3My4SZAaqkUJWHd2IWZofj"
+      },
+      {
+          "collaborative": false,
+          "description": "Sleep better with 528 Hz Sleep Music, known for its healing properties and positive energy. Experience deep, fast sleep with this calming sleeping playlist.",
+          "external_urls": {
+              "spotify": "https://open.spotify.com/playlist/1Uuj177EZv7WOvw2vGv1yE"
+          },
+          "href": "https://api.spotify.com/v1/playlists/1Uuj177EZv7WOvw2vGv1yE",
+          "id": "1Uuj177EZv7WOvw2vGv1yE",
+          "images": [
+              {
+                  "height": null,
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c76c72e51b8aa996979fe1a2e",
+                  "width": null
+              }
+          ],
+          "name": "Sleep Music 528 Hz",
+          "owner": {
+              "display_name": "Soothing Oasis",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/user/31oxlugy4vprelmopuzt3thcjsdu"
+              },
+              "href": "https://api.spotify.com/v1/users/31oxlugy4vprelmopuzt3thcjsdu",
+              "id": "31oxlugy4vprelmopuzt3thcjsdu",
+              "type": "user",
+              "uri": "spotify:user:31oxlugy4vprelmopuzt3thcjsdu"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "AAAAa+iZNe9WWRMGEgUM1UCt4VPUYSkp",
+          "tracks": {
+              "href": "https://api.spotify.com/v1/playlists/1Uuj177EZv7WOvw2vGv1yE/tracks",
+              "total": 400
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:1Uuj177EZv7WOvw2vGv1yE"
+      },
+      {
+          "collaborative": false,
+          "description": "",
+          "external_urls": {
+              "spotify": "https://open.spotify.com/playlist/7KrEHKUaiaqa3ycupf8nVF"
+          },
+          "href": "https://api.spotify.com/v1/playlists/7KrEHKUaiaqa3ycupf8nVF",
+          "id": "7KrEHKUaiaqa3ycupf8nVF",
+          "images": [
+              {
+                  "height": 640,
+                  "url": "https://mosaic.scdn.co/640/ab67616d00001e023610e8bd7f6c48150a8c5b51ab67616d00001e029666171d05581bc58683fbd3ab67616d00001e029ba229a8a9ceead9ecceec84ab67616d00001e02e2c844e36fe094ad065a903d",
+                  "width": 640
+              },
+              {
+                  "height": 300,
+                  "url": "https://mosaic.scdn.co/300/ab67616d00001e023610e8bd7f6c48150a8c5b51ab67616d00001e029666171d05581bc58683fbd3ab67616d00001e029ba229a8a9ceead9ecceec84ab67616d00001e02e2c844e36fe094ad065a903d",
+                  "width": 300
+              },
+              {
+                  "height": 60,
+                  "url": "https://mosaic.scdn.co/60/ab67616d00001e023610e8bd7f6c48150a8c5b51ab67616d00001e029666171d05581bc58683fbd3ab67616d00001e029ba229a8a9ceead9ecceec84ab67616d00001e02e2c844e36fe094ad065a903d",
+                  "width": 60
+              }
+          ],
+          "name": "Brega antigo",
+          "owner": {
+              "display_name": "Abelzancanella",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/user/316fn4b25fvuknxn7ukscsu6kty4"
+              },
+              "href": "https://api.spotify.com/v1/users/316fn4b25fvuknxn7ukscsu6kty4",
+              "id": "316fn4b25fvuknxn7ukscsu6kty4",
+              "type": "user",
+              "uri": "spotify:user:316fn4b25fvuknxn7ukscsu6kty4"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "AAABTgwD0lU/+86BttRoEmP4FSTRdXU1",
+          "tracks": {
+              "href": "https://api.spotify.com/v1/playlists/7KrEHKUaiaqa3ycupf8nVF/tracks",
+              "total": 137
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:7KrEHKUaiaqa3ycupf8nVF"
+      },
+      {
+          "collaborative": false,
+          "description": "ouça aqui e entre no FLOW! sinta o flow do rap brasileiro - o som dos cria - chama nas braba do trap - rap acústico, hits do rap, hits do trap, o melhor da cena br! 📷: MC PH",
+          "external_urls": {
+              "spotify": "https://open.spotify.com/playlist/30YT4tFyMUTqke4xqdqyuV"
+          },
+          "href": "https://api.spotify.com/v1/playlists/30YT4tFyMUTqke4xqdqyuV",
+          "id": "30YT4tFyMUTqke4xqdqyuV",
+          "images": [
+              {
+                  "height": null,
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e1dfa2881b785de8078abca2",
+                  "width": null
+              }
+          ],
+          "name": "flow - TRAP 2025 🇧🇷 🔥 RAP 2025 - ATUALIZADA",
+          "owner": {
+              "display_name": "Filtr Brasil\t",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/user/filtr.br"
+              },
+              "href": "https://api.spotify.com/v1/users/filtr.br",
+              "id": "filtr.br",
+              "type": "user",
+              "uri": "spotify:user:filtr.br"
+          },
+          "primary_color": null,
+          "public": true,
+          "snapshot_id": "AAAFwydDSC/dfZQVZHdVOgcNo756CMPr",
+          "tracks": {
+              "href": "https://api.spotify.com/v1/playlists/30YT4tFyMUTqke4xqdqyuV/tracks",
+              "total": 88
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:30YT4tFyMUTqke4xqdqyuV"
+      }
+  ]
+}
