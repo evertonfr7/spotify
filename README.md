@@ -2,6 +2,17 @@
 
 ### Everton Freitas
 
+## Demo
+
+https://spotify-orcin-psi.vercel.app/login
+
+## Como executar o projeto
+
+- Instale as dependências: `pnpm install`
+- Configure as variáveis de ambiente: `.env.example` para seu arquivo `.env` (Apenas `VITE_SPOTIFY_CLIENT_ID` e `VITE_SENTRY_DSN` são obrigatórias)
+- Na sua aplicação Spotify, configure o redirect URI para `http://localhost:5173/callback`
+- Execute o projeto: `pnpm dev`
+
 ## Projeto
 
 ### Decisões
@@ -36,6 +47,27 @@ rodei local, e melhorei a qualidade do código com base no reporte gerado pelo s
 `docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest`
 
 `SONAR_TOKEN=<SEU_TOKEN> pnpm sonar`
+
+### Testes unitários
+
+Estou utilizando o [Jest](https://jestjs.io/) para testes unitários.
+
+Juntamente com o [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+
+### Testes E2E
+
+Estou utilizando o [Cypress](https://www.cypress.io/) para testes E2E.
+
+### CI/CD
+
+Estou utilizando o [Github Actions](https://github.com/features/actions) para CI/CD.
+
+Estou utilizando o [Vercel](https://vercel.com/) para o deploy da aplicação.
+
+### Deploy
+Deploy da aplicação (Vercel: https://spotify-orcin-psi.vercel.app/login)
+
+
 
 # Requisitos
 

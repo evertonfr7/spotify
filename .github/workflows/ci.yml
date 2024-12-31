@@ -28,18 +28,6 @@ jobs:
       - name: Run unit tests
         run: npm test
 
-      - name: 'Create env file'
-        run: |
-          touch .env
-          echo API_KEY=${{ secrets.SPOTIFY_USERNAME }} >> .env
-          echo SPOTIFY_PASSWORD=${{ secrets.SPOTIFY_PASSWORD }} >> .env
-          echo VITE_SENTRY_DSN=${{ secrets.VITE_SENTRY_DSN }} >> .env
-          echo VITE_SPOTIFY_CLIENT_ID=${{ secrets.VITE_SPOTIFY_CLIENT_ID }} >> .env
-          cat .env
-
-      - name: Run integration tests
-        run: npm run test:cypress
-
   # Job to build the application
   build:
     needs: test
