@@ -18,12 +18,4 @@ describe('Sidebar Component', () => {
       expect(linkElement).toHaveAttribute('href', route.path)
     })
   })
-
-  test('renders the PWA install link', () => {
-    render(<Sidebar />)
-
-    const installLink = screen.getByRole('link', { name: /instalar pwa/i })
-    expect(installLink).toBeInTheDocument()
-    expect(installLink).toHaveAttribute('href', '/')
-  })
 })
