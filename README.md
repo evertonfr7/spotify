@@ -88,7 +88,7 @@ Deploy da aplicação (Vercel: https://spotify-orcin-psi.vercel.app/login)
 
 - [x] Testes E2E
 - [x] Integração com Sentry
-- [ ] CI/CD
+- [x] CI/CD
 - [x] Responsividade (celular e tablet)
 - [x] Qualidade de código (Sonarqube)
 - [x] PWA
