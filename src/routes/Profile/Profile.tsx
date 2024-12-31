@@ -23,8 +23,11 @@ export function Profile(): JSX.Element {
       <div className="flex h-[100vh] flex-col justify-center items-center gap-6">
         {isLoading ? (
           <>
-            <Skeleton circle className="w-[128px] h-[128px]" />
-            <Skeleton className="w-[150px] h-[20px]" />
+            <Skeleton
+              circle
+              className="w-[64px] h-[64px] md:w-[128px] md:h-[128px]"
+            />
+            <Skeleton className="w-[120px] h-[18px] md:w-[150px] md:h-[20px]" />
           </>
         ) : (
           <>

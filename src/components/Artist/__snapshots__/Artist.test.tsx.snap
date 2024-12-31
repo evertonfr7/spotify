@@ -14,7 +14,7 @@ exports[`Artist Component renders the artist with correct snapshot 1`] = `
           <img
             alt="Test Artist"
             aria-label="Test Artist"
-            class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+            class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-normal text-black text-[24px] md:text-[42px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
             height="128"
             role="img"
             src="/images/test-artist.jpg"
@@ -39,7 +39,7 @@ exports[`Artist Component renders the artist with correct snapshot 1`] = `
         <img
           alt="Test Artist"
           aria-label="Test Artist"
-          class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
+          class="rounded-full aspect-auto object-cover flex items-center justify-center font-default font-normal text-black text-[24px] md:text-[42px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]"
           height="128"
           role="img"
           src="/images/test-artist.jpg"

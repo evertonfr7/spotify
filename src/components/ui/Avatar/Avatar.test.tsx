@@ -38,7 +38,7 @@ describe('Avatar Component', () => {
     )
     let avatarImage = screen.getByAltText(/User Avatar/i)
     expect(avatarImage).toHaveClass(
-      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[32px] h-[32px] md:w-[48px] md:h-[48px]',
+      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-normal text-black text-[24px] md:text-[42px] w-[32px] h-[32px] md:w-[48px] md:h-[48px]',
     )
 
     rerender(
@@ -50,7 +50,7 @@ describe('Avatar Component', () => {
     )
     avatarImage = screen.getByAltText(/User Avatar/i)
     expect(avatarImage).toHaveClass(
-      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]',
+      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-normal text-black text-[24px] md:text-[42px] w-[48px] h-[48px] md:w-[64px] md:h-[64px]',
     )
 
     rerender(
@@ -62,7 +62,7 @@ describe('Avatar Component', () => {
     )
     avatarImage = screen.getByAltText(/User Avatar/i)
     expect(avatarImage).toHaveClass(
-      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-bold text-black text-[24px] w-[64px] h-[64px] md:w-[128px] md:h-[128px]',
+      'rounded-full aspect-auto object-cover flex items-center justify-center font-default font-normal text-black text-[24px] md:text-[42px] w-[64px] h-[64px] md:w-[128px] md:h-[128px]',
     )
   })
 
