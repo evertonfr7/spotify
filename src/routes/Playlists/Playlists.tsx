@@ -5,6 +5,7 @@ import PlaylistModal from '@/components/PlaylistModal'
 import Button from '@/components/ui/Button'
 import Skeleton from '@/components/ui/Skeleton'
 import { PLAYLISTS_PER_PAGE } from '@/constants'
+import useOnlineStatus from '@/hooks/useOnlineStatus'
 import { getUserPlaylists } from '@/resources/http/api/queries/playlists'
 import { Playlist } from '@/resources/http/api/queries/playlists/types'
 import { useInfiniteQuery } from '@tanstack/react-query'
@@ -33,6 +34,7 @@ export function Playlists(): JSX.Element {
   }
 
   const limit = PLAYLISTS_PER_PAGE
+  const isOnline = useOnlineStatus()
 
   const { data, isLoading, hasNextPage, fetchNextPage, isFetchingNextPage } =
     useInfiniteQuery({
@@ -80,7 +82,7 @@ export function Playlists(): JSX.Element {
               {hasNextPage && (
                 <Button
                   className="w-[fit-content]"
-                  disabled={isFetchingNextPage}
+                  disabled={isFetchingNextPage || !isOnline || !hasNextPage}
                   onClick={loadMore}
                 >
                   Carregar mais

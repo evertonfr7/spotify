@@ -6,6 +6,7 @@ import { ArrowLeft } from '@/components/ui/icons'
 import Skeleton from '@/components/ui/Skeleton'
 import Typography from '@/components/ui/Typography'
 import { ALBUMS_PER_PAGE } from '@/constants'
+import useOnlineStatus from '@/hooks/useOnlineStatus'
 import { getArtist } from '@/resources/http/api/queries/artist'
 import { getArtistAlbuns } from '@/resources/http/api/queries/artist-albuns'
 import { Album } from '@/resources/http/api/queries/artist-albuns/types'
@@ -27,6 +28,7 @@ const LoadingAlbums = () => {
 }
 
 export function Artist(): JSX.Element {
+  const isOnline = useOnlineStatus()
   const id = window.location.pathname.split('/').pop()
 
   const limit = ALBUMS_PER_PAGE
@@ -105,7 +107,7 @@ export function Artist(): JSX.Element {
             {hasNextPage && (
               <Button
                 className="w-[fit-content]"
-                disabled={isFetchingNextPage}
+                disabled={isFetchingNextPage || !isOnline || !hasNextPage}
                 onClick={loadMore}
               >
                 Carregar mais

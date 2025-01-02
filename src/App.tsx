@@ -10,10 +10,33 @@ import { useEffect } from 'react'
 import { getTokenFromUrl } from './utils/getTokenFromUrl'
 
 import Callback from './routes/Callback'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import Cookies from 'js-cookie'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { MutationCache, QueryClient } from '@tanstack/react-query'
+import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
+import { createSyncStoragePersister } from '@tanstack/query-sync-storage-persister'
 
-const queryClient = new QueryClient()
+const persister = createSyncStoragePersister({
+  storage: window.localStorage,
+})
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      gcTime: 1000 * 60 * 60 * 24, // 24 hours
+      staleTime: 2000,
+      retry: 0,
+    },
+  },
+  mutationCache: new MutationCache({
+    onSuccess: (data) => {
+      console.log(data)
+    },
+    onError: (error) => {
+      console.log(error)
+    },
+  }),
+})
 
 const App = () => {
   const savedToken = Cookies.get('spotify_token')
@@ -29,7 +52,15 @@ const App = () => {
   }, [savedToken])
 
   return (
-    <QueryClientProvider client={queryClient}>
+    <PersistQueryClientProvider
+      client={queryClient}
+      persistOptions={{ persister }}
+      onSuccess={() => {
+        queryClient.resumePausedMutations().then(() => {
+          queryClient.invalidateQueries()
+        })
+      }}
+    >
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
@@ -44,7 +75,8 @@ const App = () => {
           </Route>
         </Routes>
       </Router>
-    </QueryClientProvider>
+      <ReactQueryDevtools initialIsOpen />
+    </PersistQueryClientProvider>
   )
 }
 

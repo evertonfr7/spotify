@@ -19,7 +19,10 @@
   },
   "dependencies": {
     "@sentry/react": "^8.47.0",
+    "@tanstack/query-sync-storage-persister": "^5.62.9",
     "@tanstack/react-query": "^5.62.11",
+    "@tanstack/react-query-devtools": "^5.62.11",
+    "@tanstack/react-query-persist-client": "^5.62.11",
     "axios": "^1.7.9",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",

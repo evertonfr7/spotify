@@ -4,6 +4,7 @@ import PageTitle from '@/components/layout/PageTitle'
 import Button from '@/components/ui/Button'
 import Skeleton from '@/components/ui/Skeleton'
 import { ARTISTS_PER_PAGE } from '@/constants'
+import useOnlineStatus from '@/hooks/useOnlineStatus'
 import { getTopUserArtists } from '@/resources/http/api/queries/top-user-artists'
 import { Artist as ArtistType } from '@/resources/http/api/queries/top-user-artists/types'
 import { useInfiniteQuery } from '@tanstack/react-query'
@@ -19,6 +20,7 @@ const LoadingArtists = () => {
 }
 
 export function Artists(): JSX.Element {
+  const isOnline = useOnlineStatus()
   const limit = ARTISTS_PER_PAGE
 
   const { data, isLoading, hasNextPage, fetchNextPage, isFetchingNextPage } =
@@ -63,7 +65,7 @@ export function Artists(): JSX.Element {
             {hasNextPage && (
               <Button
                 className="w-[fit-content]"
-                disabled={isFetchingNextPage}
+                disabled={isFetchingNextPage || !isOnline || !hasNextPage}
                 onClick={loadMore}
               >
                 Carregar mais
